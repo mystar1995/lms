@@ -17,30 +17,6 @@
                     <span style="padding-top: 2px;">Speak Up</span>
                 </a>
             </li>
-            <li class="{{ active_class(Active::checkUriPattern('admin/ktest')) }}">
-                <a href="{{ route('admin.ktest') }}" style="display: flex;">
-                    <i class="ms-Icon ms-font-lg ms-Icon--AddEvent" style="margin-right:21px;"></i>
-                    <span style="padding-top: 2px;">Knowledge Tests</span>
-                </a>
-            </li>
-            <li class="{{ active_class(Active::checkUriPattern('admin/requests')) }}">
-                <a href="{{ route('admin.requests') }}" style="display: flex;">
-                    <i class="ms-Icon ms-font-lg ms-Icon--Help" style="margin-right:21px;"></i>
-                    <span style="padding-top: 2px;">Requests</span>
-                </a>
-            </li>
-            <li class="{{ active_class(Active::checkUriPattern('admin/sitenotification')) }}">
-                <a href="{{ route('admin.sitenotification') }}" style="display: flex;">
-                    <i class="ms-Icon ms-font-lg ms-Icon--Warning" style="margin-right:21px;"></i>
-                    <span style="padding-top: 2px;">Notifications</span>
-                </a>
-            </li>            
-            <li class="{{ active_class(Active::checkUriPattern('admin/analytics')) }}">
-                <a href="{{ route('admin.analytics') }}" style="display: flex;">
-                    <i class="ms-Icon ms-font-lg ms-Icon--DynamicSMBLogo" style="margin-right:21px;"></i>
-                    <span style="padding-top: 2px;">Analytics</span>
-                </a>
-            </li>
             <li class="{{ active_class(Active::checkUriPattern('admin/blog*')) }} treeview">
                 <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--Boards" style="margin-right:21px;"></i>
@@ -59,7 +35,7 @@
                     @permission('view-blog-tag')
                     <li class="{{ active_class(Active::checkUriPattern('admin/blogTags*')) }}">
                         <a href="#">
-                            <span>{{ trans('menus.backend.blogtags.management') }}</span>
+                            <span>Course Tag (week)</span>
                         </a>
                     </li>
                     @endauth
@@ -70,6 +46,42 @@
                         </a>
                     </li>
                     @endauth
+                </ul>
+            </li>
+            <li class="{{ active_class(Active::checkUriPattern('admin/ktest')) }}">
+                <a href="{{ route('admin.ktest') }}" style="display: flex;">
+                    <i class="ms-Icon ms-font-lg ms-Icon--AddEvent" style="margin-right:21px;"></i>
+                    <span style="padding-top: 2px;">Knowledge Tests</span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="#" style="display: flex;">
+                    <i class="ms-Icon ms-font-lg ms-Icon--FabricOpenFolderHorizontal" style="margin-right:21px;"></i>
+                    <span style="padding-top: 2px;">Knowledgebase</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+
+                <ul class="treeview-menu" style="display: none;">
+                    <li class="">
+                        <a href="#">
+                            <span>Code of Ethics</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <span>Analysis & Design</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <span>Development</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <span>QA & Testing</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
             <li class="treeview">
@@ -107,38 +119,26 @@
                     </li>
                 </ul>
             </li>
-            <li class="treeview">
-                <a href="#" style="display: flex;">
-                    <i class="ms-Icon ms-font-lg ms-Icon--FabricOpenFolderHorizontal" style="margin-right:21px;"></i>
-                    <span style="padding-top: 2px;">Knowledgebase</span>
-                    <i class="fa fa-angle-left pull-right"></i>
+            <li class="{{ active_class(Active::checkUriPattern('admin/requests')) }}">
+                <a href="{{ route('admin.requests') }}" style="display: flex;">
+                    <i class="ms-Icon ms-font-lg ms-Icon--Help" style="margin-right:21px;"></i>
+                    <span style="padding-top: 2px;">Requests</span>
                 </a>
-
-                <ul class="treeview-menu" style="display: none;">
-                    <li class="">
-                        <a href="#">
-                            <span>Code of Ethics</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="#">
-                            <span>Analysis & Design</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="#">
-                            <span>Development</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="#">
-                            <span>QA & Testing</span>
-                        </a>
-                    </li>
-                </ul>
             </li>
+            <li class="{{ active_class(Active::checkUriPattern('admin/sitenotification')) }}">
+                <a href="{{ route('admin.sitenotification') }}" style="display: flex;">
+                    <i class="ms-Icon ms-font-lg ms-Icon--Warning" style="margin-right:21px;"></i>
+                    <span style="padding-top: 2px;">Notifications</span>
+                </a>
+            </li>         
             <li class="header">{{ trans('menus.backend.sidebar.system') }}</li>
-            {{ renderMenuItems(getMenuItems()) }}
+            {{ renderMenuItems(getMenuItems()) }}   
+            <li class="{{ active_class(Active::checkUriPattern('admin/analytics')) }}">
+                <a href="{{ route('admin.analytics') }}" style="display: flex;">
+                    <i class="ms-Icon ms-font-lg ms-Icon--DynamicSMBLogo" style="margin-right:21px;"></i>
+                    <span style="padding-top: 2px;">Analytics</span>
+                </a>
+            </li>
         </ul><!-- /.sidebar-menu -->
     </section><!-- /.sidebar -->
 </aside>
