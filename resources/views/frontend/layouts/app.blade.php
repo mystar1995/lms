@@ -11,7 +11,7 @@
         <title>License2Code</title>
 
         <!-- Meta -->
-        <meta name="description" content="@yield('meta_description', 'Laravel AdminPanel')">
+        <meta name="description" content="License2Code">
         <meta name="author" content="@yield('meta_author', 'Viral Solani')">
         <meta name="keywords" content="@yield('meta_keywords', 'Laravel AdminPanel')">
         <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/css/fabric.min.css" />
