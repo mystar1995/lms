@@ -1,6 +1,4 @@
 /node_modules
-/public/storage
-/public/hot
 /storage/*.key
 /vendor
 .idea
@@ -23,18 +21,5 @@ Todo.rtf
 npm-debug.log
 yarn-error.log
 phpunit.txt
-public/css
-public/js/*.js
-public/js/plugins
-public/js/skins
-public/js/themes
-public/vendor
-public/js/skins/*.js
-
-public/img/backend/blog_images/*
-public/mix-manifest.json
-public/access.log
-public/error.log
-!public/js/jquerysession.min.js
 output.txt
 .php_cs.cache
