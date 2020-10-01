@@ -27,14 +27,14 @@
                 <ul class="treeview-menu {{ active_class(Active::checkUriPattern('admin/blog*'), 'menu-open') }}" style="display: none;">
                     @permission('view-blog-category')
                     <li class="{{ active_class(Active::checkUriPattern('admin/blogCategories*')) }}">
-                        <a href="#">
+                        <a href="{{ route('admin.blogCategories.index') }}">
                             <span>{{ trans('menus.backend.blogcategories.management') }}</span>
                         </a>
                     </li>
                     @endauth
                     @permission('view-blog-tag')
                     <li class="{{ active_class(Active::checkUriPattern('admin/blogTags*')) }}">
-                        <a href="#">
+                        <a href="{{ route('admin.blogTags.index') }}">
                             <span>Course Tag (week)</span>
                         </a>
                     </li>

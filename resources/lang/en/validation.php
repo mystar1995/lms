@@ -179,7 +179,7 @@ return [
             'blogs' => [
                 'title'            => 'Course Title',
                 'category'         => 'Course Category',
-                'publish'          => 'Publish Date & Time',
+                'publish'          => 'Period Date & time',
                 'image'            => 'Featured Image',
                 'content'          => 'Content',
                 'tags'             => 'Tags',
