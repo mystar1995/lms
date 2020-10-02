@@ -17,31 +17,31 @@
                     <span style="padding-top: 2px;">Speak Up</span>
                 </a>
             </li>
-            <li class="{{ active_class(Active::checkUriPattern('admin/blog*')) }} treeview">
+            <li class="{{ active_class(Active::checkUriPattern('admin/blog*')) }} treeview3">
                 <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--Boards" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">{{ trans('menus.backend.blog.management') }}</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
 
-                <ul class="treeview-menu {{ active_class(Active::checkUriPattern('admin/blog*'), 'menu-open') }}" style="display: none;">
+                <ul class="treeview-menu3 {{ active_class(Active::checkUriPattern('admin/blog*'), 'menu-open') }}" style="display: none;">
                     @permission('view-blog-category')
                     <li class="{{ active_class(Active::checkUriPattern('admin/blogCategories*')) }}">
-                        <a href="{{ route('admin.blogCategories.index') }}">
+                        <a href="{{ route('admin.blogCategories.index') }}" class="b_cate">
                             <span>{{ trans('menus.backend.blogcategories.management') }}</span>
                         </a>
                     </li>
                     @endauth
                     @permission('view-blog-tag')
                     <li class="{{ active_class(Active::checkUriPattern('admin/blogTags*')) }}">
-                        <a href="{{ route('admin.blogTags.index') }}">
+                        <a href="{{ route('admin.blogTags.index') }}" class="b_tag">
                             <span>Course Tag (week)</span>
                         </a>
                     </li>
                     @endauth
                     @permission('view-blog')
                     <li class="{{ active_class(Active::checkUriPattern('admin/blogs*')) }}">
-                        <a href="{{ route('admin.blogs.index') }}">
+                        <a href="{{ route('admin.blogs.index') }}" class="b_con">
                             <span>{{ trans('menus.backend.blog.management') }}</span>
                         </a>
                     </li>
@@ -54,44 +54,44 @@
                     <span style="padding-top: 2px;">Knowledge Tests</span>
                 </a>
             </li>
-            <li class="treeview">
+            <li class="{{ active_class(Active::checkUriPattern('admin/w*')) }} treeview2">
                 <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--FabricOpenFolderHorizontal" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">Knowledgebase</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
 
-                <ul class="treeview-menu" style="display: none;">
+                <ul class="treeview-menu2" style="display: none;">
                     <li class="">
-                        <a href="#">
+                        <a href="{{ route('admin.wcode') }}" class="code">
                             <span>Code of Ethics</span>
                         </a>
                     </li>
                     <li class="">
-                        <a href="#">
+                        <a href="{{ route('admin.wdesign') }}" class="design">
                             <span>Analysis & Design</span>
                         </a>
                     </li>
                     <li class="">
-                        <a href="#">
+                        <a href="{{ route('admin.wdev') }}" class="dev">
                             <span>Development</span>
                         </a>
                     </li>
                     <li class="">
-                        <a href="#">
+                        <a href="{{ route('admin.wqa') }}" class="qa">
                             <span>QA & Testing</span>
                         </a>
                     </li>
                 </ul>
             </li>
-            <li class="treeview">
+            <li class="treeview1">
                 <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--DelveAnalyticsLogo" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">Directories</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
 
-                <ul class="treeview-menu" style="display: none;">
+                <ul class="treeview-menu1" style="display: none;">
                     <li class="">
                         <a href="#">
                             <span>Languages</span>

@@ -874,7 +874,7 @@ ul.timeline.notification-list>li>.timeline-item>.timeline-header>span.comment-hl
  	font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
  }
  .sidebar-menu>li>a>.fa{
- 	width: 32px;
+ 	width: 0px;
  }
  .main-header{
  	position: fixed;width: 100%;
@@ -886,6 +886,68 @@ ul.timeline.notification-list>li>.timeline-item>.timeline-header>span.comment-hl
  	border-bottom:solid 1px #ddd !important;
  	height: 32px !important;
  }
+.treeview-menu1 li{
+  padding: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.treeview-menu1 li:hover{
+  background-color: white;
+}
+.treeview-menu2 li{
+  padding: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.treeview-menu2 li:hover{
+  background-color: white;
+}
+.treeview-menu3, .treeview-menu2, .treeview-menu1{
+	background-color: #f3f2f1;
+}
+.treeview-menu3 li{
+  padding: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.treeview-menu3 li:hover{
+  background-color: white;
+}
+.treeview-menu3 li .b_cate{
+	padding: 10px;
+    padding-left: 0px;
+    padding-right: 74px;
+}
+.treeview-menu3 li .b_tag{
+	padding: 10px;
+    padding-left: 0px;
+    padding-right: 65px;
+}
+.treeview-menu3 li .b_con{
+	padding: 10px;
+    padding-left: 0px;
+    padding-right: 135px;
+}
+.treeview-menu2 li .code{
+	padding: 10px;
+    padding-left: 0px;
+    padding-right: 88px;
+}
+.treeview-menu2 li .qa{
+	padding: 10px;
+    padding-left: 0px;
+    padding-right: 95px;
+}
+.treeview-menu2 li .dev{
+	padding: 10px;
+    padding-left: 0px;
+    padding-right: 95px;
+}
+.treeview-menu2 li .design{
+	padding: 10px;
+    padding-left: 0px;
+    padding-right: 66px;
+}
 
 
 
@@ -894,7 +956,175 @@ ul.timeline.notification-list>li>.timeline-item>.timeline-header>span.comment-hl
 
 
 
- .transparent-bg{
+
+
+
+
+
+  .left-img{
+    cursor: pointer;
+    margin-top: -4px;
+    margin-right: -10px !important;
+  }
+  .ms-Icon{
+    font-size: 17px;
+  }
+  .navbar .ms-Button{
+    min-width:53px;
+    padding: 4px 5px 6px;
+  }
+  .ms-Button--indigo{
+    height: 53px;
+    background-color: #5c2d91;
+    border: 1px solid #5c2d91;
+  }
+  .ms-Button--indigo:hover{
+    height: 53px;
+    background-color: #3c1765;
+    border: 1px solid #3c1765;
+  }
+  .ms-Panel{
+    background-color: #faf9f8;
+    box-shadow:-28px 0 24px -42px rgb(0 0 0);
+  }
+.collapsible {
+  color: #333;
+  cursor: pointer;
+  padding: 9px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+.collapsible:after {
+  content: "\02C7";
+  font-size: 35px;
+  padding-top: 13px;
+  margin-bottom: -20px;
+  float: right;
+  margin-left: 5px;
+  color: #848b90;
+}
+li button:focus{
+  outline: unset;
+}
+.active1:after {
+ content: "\02C6";
+  color: #848b90;
+}
+
+/*.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0s ease-out;
+  background-color: #f1f1f1;
+}
+.content a {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  padding-left: 52px !important;
+}*/
+.content .active {
+  background-color: #e0ccff;
+}
+.ms-Panel {
+  box-shadow: -38px 0 6px -41px rgb(0 0 0);
+}
+.ms-Panel-closeButton .ms-Icon--Cancel{
+  margin-top: 54px;
+}
+.ms-Panel{
+  padding-top: 40px;
+}
+.user-m .ms-Button{
+  color: white;
+  height: auto;
+  min-width: auto;
+}
+.ms-Button{
+  color: white;
+}
+.user-m .ms-Button:hover{
+  color: white;
+  text-decoration:none;
+}
+.user-m .ms-Button--danger{
+  background-color: #949494;
+}
+.ms-Icon:before{
+  font-size: 15px;
+  padding-top: 2px;
+}
+.role-sel, .update-sel{
+  background-color: unset !important;
+  border-radius: 0px !important;
+  height: 40px !important;
+}
+.title-label{
+  font-weight: bold;
+}
+.card-body td, .card-body th, .card-body label{
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+.user-m .table-striped tbody tr:nth-of-type(odd){
+  background-color: unset;
+}
+.user-m table td,.user-m table th {
+  height: 50px !important;
+  border-top: 1px solid #b9bdbf;
+}
+.user-m table{
+  margin-bottom: 0px;
+}
+.user-m table .action{
+  text-align: right;
+  margin-right: 100px;
+}
+.user-m .card-header{
+  border-bottom-color:#ececec !important;
+}
+.ms-Icon--Cancel{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.ms-Dropdown-title{
+  border:unset !important;
+  background-color: unset;
+}
+.ms-Dropdown-select *{
+  font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+.helpful .ms-Icon--ChromeBack:before{
+  font-size: 17px;
+}
+.helpful .ms-Icon--Home:before{
+  font-size: 20px;
+}
+.btn-group .btn-warning{
+    display: none;
+}
+.fa-users{
+	margin-right: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .transparent-bg{
  	display: none;
  }
  .dataTables_length, .dataTables_filter, .dataTables_info{
@@ -902,7 +1132,7 @@ ul.timeline.notification-list>li>.timeline-item>.timeline-header>span.comment-hl
  }
  .ms-Panel-content .user-header{
  	display: none;
- }
+ }*/
 .skin-blue-light .sidebar-menu>li>.treeview-menu{
     padding-top: 0px !important;
     padding-bottom: 0px !important;

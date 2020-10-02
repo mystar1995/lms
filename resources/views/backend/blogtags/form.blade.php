@@ -23,3 +23,8 @@
         </div><!--col-lg-3-->
     </div><!--form control-->
 </div>
+<style type="text/css">
+    .treeview-menu3{
+        display: block !important;
+    }
+</style>
