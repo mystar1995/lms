@@ -7,21 +7,21 @@
 	<div class="" style="padding: 13px; padding-left: 30px;">
 		<div class="row">
 			<div class="col-md-1" style="cursor: pointer;">
-				<div>
-					<i class="fa fa-plus" style="color: #5597e4; font-size: 13px;"></i>
+				<div class="event">
+					<i class="ms-Icon ms-font-sm ms-Icon--CalculatorAddition" style="color: #5597e4; font-size: 13px;"></i>
 					<span style="cursor: pointer;">New</span>
 				</div>
 			</div>
 			<div class="col-md-1" style="cursor: pointer;">
-				<div>
-					<i class="fa fa-trash" style="color: #5597e4"></i>
+				<div class="event">
+					<i class="ms-Icon ms-font-sm ms-Icon--Delete" style="color: #5597e4"></i>
 					<span style="cursor: pointer;">Delete</span>
 				</div>				
 			</div>
 			<div class="col-md-1 top-content ms-env">
 				<div  class="ms-Button" style="cursor: pointer;">					
-					<i class="fa fa-edit" style=" color: #5597e4"></i>
-					<span>Content</span>
+					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--Edit" style=" color: #5597e4"></i>
+					<span>Content</span></div>
 				</div>
 				<div class="ms-Panel">
                   <button class="ms-Panel-closeButton ms-PanelAction-close">
@@ -119,5 +119,18 @@
 	}
 	.top-area .ms-Button:hover{
 		background-color: unset !important;
+	}
+	.content{
+		padding: 0px !important;
+	}
+	.event{
+		display: flex;padding: 5px; margin-top: -6px;
+	}
+	.event:hover{
+		background-color: #e0dfdf;
+	}
+	.event span{
+		padding-left: 3px;
+		padding-top: 0.3px;
 	}
 </style>
