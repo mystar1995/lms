@@ -3,9 +3,42 @@
 @section ('title', trans('labels.backend.speakups.management'))
 
 @section('page-header')
-    <h1>Requests</h1>
 @endsection
 @section('content')
+<div class="top-area">
+	<div class="" style="padding: 13px; padding-left: 30px;">
+		<div class="row">
+			<div class="col-md-1" style="cursor: pointer;">
+				<div>
+					<i class="fa fa-plus" style="color: #5597e4; font-size: 13px;"></i>
+					<span style="cursor: pointer;">New</span>
+				</div>
+			</div>
+			<div class="col-md-1" style="cursor: pointer;">
+				<div>
+					<i class="fa fa-trash" style="color: #5597e4"></i>
+					<span style="cursor: pointer;">Delete</span>
+				</div>				
+			</div>
+			<div class="col-md-1 top-content ms-env">
+				<div  class="ms-Button" style="cursor: pointer;">					
+					<i class="fa fa-edit" style=" color: #5597e4"></i>
+					<span>Content</span>
+				</div>
+				<div class="ms-Panel">
+                  <button class="ms-Panel-closeButton ms-PanelAction-close">
+                    <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel" style="padding-top: 2px;"></i>
+                  </button>
+                  <div class="ms-Panel-contentInner">
+                    <p class="ms-Panel-headerText">Request</p>
+                    <div class="ms-Panel-content">
+                    </div>
+                  </div>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
 <section class="section">
   <div class="section-header">
   </div>
@@ -87,5 +120,24 @@
 	}
 	table.dataTable td{
 		padding: 10px 10px !important;
+	}
+	.top-area{
+		background-color: #f3f2f1;
+		height: 44px;
+	}
+	.content-header{
+		padding:0px !important;
+	}
+	.top-area .ms-Button{
+		color: #696969;
+		border: none;
+		padding: unset;
+		height: 25px;
+	}
+	.top-area .ms-Button:hover{
+		background-color: unset !important;
+	}
+	.content{
+		padding: 0px !important;
 	}
 </style>
