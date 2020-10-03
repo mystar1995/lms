@@ -3,8 +3,49 @@
 @section ('title', trans('labels.backend.speakups.management'))
 
 @section('page-header')
-    <section class="page-section g" id="original-source">
-  <div class="gr" style="margin-top: 40px;margin-bottom: 10px;">
+<div class="top-area">
+	<div class="" style="padding: 13px; padding-left: 30px;">
+		<div class="row">
+			<div class="col-md-1" style="cursor: pointer;">
+				<div>
+					<i class="fa fa-plus" style="color: #5597e4; font-size: 13px;"></i>
+					<span style="cursor: pointer;">New</span>
+				</div>
+			</div>
+			<div class="col-md-1" style="cursor: pointer;">
+				<div>
+					<i class="fa fa-trash" style="color: #5597e4"></i>
+					<span style="cursor: pointer;">Delete</span>
+				</div>				
+			</div>
+			<div class="col-md-1 top-content ms-env">
+				<div  class="ms-Button" style="cursor: pointer;">					
+					<i class="fa fa-edit" style=" color: #5597e4"></i>
+					<span>Content</span>
+				</div>
+				<div class="ms-Panel">
+                  <button class="ms-Panel-closeButton ms-PanelAction-close">
+                    <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel" style="padding-top: 2px;"></i>
+                  </button>
+                  <div class="ms-Panel-contentInner">
+                    <p class="ms-Panel-headerText">Contents</p>
+                    <div class="ms-Panel-content">
+      <p class="f4 cl-white mv16">And that’s why a 15th century typesetter might have scrambled a passage of Cicero; he wanted people to focus on his fonts.
+</p>
+                      <blockquote class="page-section__blockquote">“There to be decorated by designers who can’t be bothered to read. Lorem Ipsum exists because words are powerful.”
+</blockquote>
+      <p class="f4 cl-white mv16">He wanted people to see, and to get them to see he had to keep them from reading.
+</p>
+                    </div>
+                  </div>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+<section class="page-section g" id="original-source">
+  <div class="gr" style="background-color: white; padding: 30px;">
+  	<div class="gr" style="">
     <div class="page-section__header g12-xs g9-xl">
       <h2 class="f1 cl-gray-1">
         <a href="#original-source">QA & Testing</a>
@@ -12,14 +53,13 @@
       <p class="f1 cl-white m0">Below are the original Latin passages from which Lorem Ipsum was derived, paired with their 1914 translations by H. Rackham.</p>
     </div>
   </div>
-  <div class="gr" style="background-color: white; padding: 30px; padding-top: 0px; padding-bottom: 20px;">
     <figure class="page-section__image g12-xs g3-md">
       <figcaption>
         <div class="page-section__squiggle">
           <div class="page-section__squiggle-one"></div>
           <div class="page-section__squiggle-two"></div>
         </div>
-        <h4 class="page-section__caption f5 cl-gray-1" style="padding-top: 50px;">Qa & Testing</h4>
+        <h4 class="page-section__caption f5 cl-gray-1" style="padding-top: 15px;">Qa & Testing</h4>
       </figcaption>
     </figure>
     <div class="page-section__block g12-xs g9-md g6-xl">
@@ -73,4 +113,32 @@
 	    line-height: 1.5;
 	    font-size: 1.1375em;
 	}
+
+	.top-area{
+		background-color: #f3f2f1;
+		height: 44px;
+	}
+	.content-header{
+		padding:0px !important;
+	}
+	.top-area .ms-Button{
+		color: #696969;
+		border: none;
+		padding: unset;
+		height: 25px;
+	}
+	.top-area .ms-Button:hover{
+		background-color: unset !important;
+	}
 </style>
+<!-- <script type="text/javascript">
+	jQuery(document).ready(function(){
+		$('.ms-Icon--ChevronDown').click(function(){
+			jQuery('dd000');
+		})
+	})
+</script> -->
+
+
+
+

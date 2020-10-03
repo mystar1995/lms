@@ -3,24 +3,58 @@
 @section ('title', trans('labels.backend.speakups.management'))
 
 @section('page-header')
-   <section class="page-section g" id="controversy">
-  <div class="gr">
-    <div class="page-section__header g12-xs g9-xl">
-      <h2 class="f1 cl-gray-1" style="margin-top: 40px;margin-bottom: 10px;">
+<div class="top-area">
+	<div class="" style="padding: 13px; padding-left: 30px;">
+		<div class="row">
+			<div class="col-md-1" style="cursor: pointer;">
+				<div>
+					<i class="fa fa-plus" style="color: #5597e4; font-size: 13px;"></i>
+					<span style="cursor: pointer;">New</span>
+				</div>
+			</div>
+			<div class="col-md-1" style="cursor: pointer;">
+				<div>
+					<i class="fa fa-trash" style="color: #5597e4"></i>
+					<span style="cursor: pointer;">Delete</span>
+				</div>				
+			</div>
+			<div class="col-md-1 top-content ms-env">
+				<div  class="ms-Button" style="cursor: pointer;">					
+					<i class="fa fa-edit" style=" color: #5597e4"></i>
+					<span>Content</span>
+				</div>
+				<div class="ms-Panel">
+                  <button class="ms-Panel-closeButton ms-PanelAction-close">
+                    <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel" style="padding-top: 2px;"></i>
+                  </button>
+                  <div class="ms-Panel-contentInner">
+                    <p class="ms-Panel-headerText">Contents</p>
+                    <div class="ms-Panel-content">
+      <p class="f4 cl-white mv16">And that’s why a 15th century typesetter might have scrambled a passage of Cicero; he wanted people to focus on his fonts.
+</p>
+                      <blockquote class="page-section__blockquote">“There to be decorated by designers who can’t be bothered to read. Lorem Ipsum exists because words are powerful.”
+</blockquote>
+      <p class="f4 cl-white mv16">He wanted people to see, and to get them to see he had to keep them from reading.
+</p>
+                    </div>
+                  </div>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+<section class="page-section g" id="controversy" style="">
+  <div class="gr" style="background-color: white; padding: 30px;padding-top: 20px;">  	
+    <div class="">
+      <h2 class="f1 cl-gray-1">
         <a href="#">Analysis & Design </a>
       </h2>
     </div>
-  </div>
-  <div class="gr" style="background-color: white; padding: 30px; padding-top: 0px; padding-bottom: 20px;">
-    <figure class="page-section__image g12-xs g3-md">
-      <figcaption>
-        <div class="page-section__squiggle">
-          <div class="page-section__squiggle-one"></div>
-          <div class="page-section__squiggle-two"></div>
-        </div>
-        <h4 class="page-section__caption f5 cl-gray-1" style="padding-top: 50px;">Analysis & Design </h4>
-      </figcaption>
-    </figure>
+    <div class="">
+      <div>
+        <h4 class="page-section__caption f5 cl-gray-1" style="padding-top: 15px;">Analysis & Design </h4>
+      </div>
+    </div>
     <div class="page-section__block g12-xs g9-md g6-xl">
       <h3 class="f5 cl-orange mb16" style="color: #FF6A67; font-size: 0.875em; font-weight: bolder;">Design or (Dis)content</h3>
       <p class="f4 cl-white mv16">Among design professionals, there's a bit of controversy surrounding the filler text. Controversy, as in <a href="#" target="_blank" rel="noopener" title="Death to Lorem Ipsum">Death to Lorem Ipsum</a>.
@@ -80,5 +114,21 @@
 	    font-family: "Mercury SSm A", "Mercury SSm B", Georgia, Times, "Times New Roman", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", serif;
 	    line-height: 1.5;
 	    font-size: 1.1375em;
+	}
+	.top-area{
+		background-color: #f3f2f1;
+		height: 44px;
+	}
+	.content-header{
+		padding:0px !important;
+	}
+	.top-area .ms-Button{
+		color: #696969;
+		border: none;
+		padding: unset;
+		height: 25px;
+	}
+	.top-area .ms-Button:hover{
+		background-color: unset !important;
 	}
 </style>

@@ -3,14 +3,51 @@
 @section ('title', trans('labels.backend.speakups.management'))
 
 @section('page-header')
-    <section class="section">
-  <div class="section-header" style="margin-bottom: -10px;padding-top: 40px">
-    <p class="f1 cl-white m0"><em><a href="#" style="color: #FF6A67;">Code of Ethics</a></em> began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text <em>De Finibus Bonorum et Malorum</em>.</p>
-  </div>
+<div class="top-area">
+	<div class="" style="padding: 13px; padding-left: 30px;">
+		<div class="row">
+			<div class="col-md-1" style="cursor: pointer;">
+				<div>
+					<i class="fa fa-plus" style="color: #5597e4; font-size: 13px;"></i>
+					<span style="cursor: pointer;">New</span>
+				</div>
+			</div>
+			<div class="col-md-1" style="cursor: pointer;">
+				<div>
+					<i class="fa fa-trash" style="color: #5597e4"></i>
+					<span style="cursor: pointer;">Delete</span>
+				</div>				
+			</div>
+			<div class="col-md-1 top-content ms-env">
+				<div  class="ms-Button" style="cursor: pointer;">					
+					<i class="fa fa-edit" style=" color: #5597e4"></i>
+					<span>Content</span>
+				</div>
+				<div class="ms-Panel">
+                  <button class="ms-Panel-closeButton ms-PanelAction-close">
+                    <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel" style="padding-top: 2px;"></i>
+                  </button>
+                  <div class="ms-Panel-contentInner">
+                    <p class="ms-Panel-headerText">Contents</p>
+                    <div class="ms-Panel-content">
+                      <blockquote class="page-section__blockquote">“Nor is there anyone who loves or pursues or desires to obtain pain of itself.”</blockquote>
+						<p class="f4 cl-white mt16 mb0">McClintock's eye for detail certainly helped narrow the whereabouts of <em>lorem ipsum's</em> origin, however, the “how and when” still remain something of a mystery, with competing theories and timelines.
+                    </div>
+                  </div>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+                    
 
+<section class="section">
   <div class="section-body" style="background-color: white; padding: 30px; padding-top: 0px; padding-bottom: 20px;">
+  	<div class="section-header" style=";padding-top: 40px">
+	    <p class="f1 cl-white m0"><em><a href="#" style="color: #FF6A67;">Code of Ethics</a></em> began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text <em>De Finibus Bonorum et Malorum</em>.</p>
+	  </div>
     <div class="page-section__block g12-xs g9-md g6-xl">
-      <h3 class="f5 cl-orange mb16" style="padding-top: 50px;">Code of Ethics</h3>
+      <h3 class="f5 cl-orange mb16" style="padding-top: 0px;">Code of Ethics</h3>
       <p class="f4 cl-white mt0 mb16">Until recently, the prevailing view assumed <em>lorem ipsum</em> was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” <em>Before &amp; After</em> magazine <a href="#" target="_blank" rel="noopener" title="Straight Dope – What Does the Filler Text Lorem Ipsum Mean?">answered a curious reader</a>, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”
 	</p>
       <p class="f4 cl-white mv16">As Cicero would put it, “Um, not so fast.”
@@ -66,5 +103,21 @@
 	    font-family: "Mercury SSm A", "Mercury SSm B", Georgia, Times, "Times New Roman", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", serif;
 	    line-height: 1.5;
 	    font-size: 1.1375em;
+	}
+	.top-area{
+		background-color: #f3f2f1;
+		height: 44px;
+	}
+	.content-header{
+		padding:0px !important;
+	}
+	.top-area .ms-Button{
+		color: #696969;
+		border: none;
+		padding: unset;
+		height: 25px;
+	}
+	.top-area .ms-Button:hover{
+		background-color: unset !important;
 	}
 </style>
