@@ -47,6 +47,20 @@ return [
 	"not_found" => "That Page does not exist.",
 	"update_error" => "There was a problem updating this Page. Please try again.",
 	],
+	"blog1categories" => [
+	"already_exists" => "That Course Category already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Course Category. Please try again.",
+	"delete_error" => "There was a problem deleting this Course Category. Please try again.",
+	"not_found" => "That Course Category does not exist.",
+	"update_error" => "There was a problem updating this Course Category. Please try again.",
+	],
+	"blog1tags" => [
+	"already_exists" => "That Course Tag already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Course Tag. Please try again.",
+	"delete_error" => "There was a problem deleting this Course Tag. Please try again.",
+	"not_found" => "That Course Tag does not exist.",
+	"update_error" => "There was a problem updating this Course Tag. Please try again.",
+	],
 	"blogcategories" => [
 	"already_exists" => "That Course Category already exists. Please choose a different name.",
 	"create_error" => "There was a problem creating this Course Category. Please try again.",
