@@ -60,7 +60,21 @@ return [
 	"management" => "Course",
 	"main" => "Courses",
 	],
+	"blog1s" => [
+	"all" => "All Course",
+	"create" => "Create Course",
+	"edit" => "Edit Course",
+	"management" => "Course",
+	"main" => "Courses",
+	],
 	"blogcategories" => [
+	"all" => "All Course Categories",
+	"create" => "Create Course Category",
+	"edit" => "Edit Course Category",
+	"management" => "Course Category",
+	"main" => "CMS Pages",
+	],
+	"blog1categories" => [
 	"all" => "All Course Categories",
 	"create" => "Create Course Category",
 	"edit" => "Edit Course Category",
@@ -74,7 +88,21 @@ return [
 	"management" => "Course Tag",
 	"main" => "Course Tags",
 	],
+	"blog1tags" => [
+	"all" => "All Course Tag",
+	"create" => "Create Course Tag",
+	"edit" => "Edit Course Tag",
+	"management" => "Course Tag",
+	"main" => "Course Tags",
+	],
 	"blog" => [
+	"all" => "All Course Page",
+	"create" => "Create Course Page",
+	"edit" => "Edit Course Page",
+	"management" => "Course",
+	"main" => "Course Pages",
+	],
+	"blog1" => [
 	"all" => "All Course Page",
 	"create" => "Create Course Page",
 	"edit" => "Edit Course Page",
