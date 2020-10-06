@@ -51,18 +51,5 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
 
         // Blogs
         Route::resource('blogs', 'BlogsController', ['except' => ['create', 'edit']]);
-<<<<<<< HEAD
-     
-=======
-
-        // Blog1 Categories
-        Route::resource('blog1_categories', 'Blog1CategoriesController', ['except' => ['create', 'edit']]);
-
-        // Blog1 Tags
-        Route::resource('blog1_tags', 'Blog1TagsController', ['except' => ['create', 'edit']]);
-
-        // Blogs1
-        Route::resource('blog1s', 'Blog1sController', ['except' => ['create', 'edit']]);
->>>>>>> c1765442b2ada22156b5469531dee3305a3ed15f
     });
 });
