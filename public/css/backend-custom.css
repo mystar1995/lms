@@ -780,7 +780,7 @@ textarea.form-control { max-width: 100%; min-height: 50px; }
 .btn-primary:hover {background: rgba(0,0,0,.8);}
 .skin-blue-light .main-header .logo:hover, .skin-blue-light .main-header .navbar .sidebar-toggle:hover {     background: rgba(0,0,0,.1);
     color: #f6f6f6;}
-.main-header .sidebar-toggle { height: 53px; }
+.main-header .sidebar-toggle { height: 44px; }
 .navbar-custom-menu>.navbar-nav>li>.dropdown-menu { padding: 0; }
 .navbar-nav>.user-menu>.dropdown-menu>li.user-header { height: 145px; background: var(--theme-co)}
 .navbar-nav>.user-menu>.dropdown-menu>.user-body { display: inline-block; width: 49%; vertical-align: middle; border-top: 0; border-bottom: 0; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; -ms-border-radius: 0; }
@@ -874,7 +874,7 @@ ul.timeline.notification-list>li>.timeline-item>.timeline-header>span.comment-hl
  	font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
  }
  .sidebar-menu>li>a>.fa{
- 	width: 0px;
+ 	width: 5px;
  }
  .main-header{
  	position: fixed;width: 100%;
@@ -1110,7 +1110,17 @@ li button:focus{
 .fa-users{
 	margin-right: 32px;
 }
+.treeview-menu2 .active, .treeview-menu3 .active, .treeview-menu1 .active{
+	background-color: #e0ccff; 
+}
 
+.treeview-menu2 .active:hover, .treeview-menu3 .active:hover, .treeview-menu1 .active:hover{
+	background-color: #e0ccff;
+}
+
+.treeview-menu2 .active span, .treeview-menu3 .active span, .treeview-menu1 .active span{
+	background-color: #e0ccff; color: #7319ff
+}
 
 
 

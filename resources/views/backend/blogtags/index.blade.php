@@ -111,4 +111,7 @@
     .treeview-menu3{
         display: block !important;
     }
+    .treeview3 .fa-angle-up{
+        transform:rotate(-180deg) !important;margin-right:7px !important;
+    }
 </style>

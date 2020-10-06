@@ -92,42 +92,48 @@
   $('.treeview1').click(function(){
     if($(this).hasClass('tree_has'))
     {
+      $('.treeview1 .fa-angle-up').attr('style', 'transform:rotate(0deg) !important; margin-right:15px; font-size:20px;');
       $('.treeview-menu1').attr('style', 'display:none !important');
       $(this).removeClass('tree_has');
     }
     else
     {      
       $('.treeview-menu1').attr('style', 'display:block');
-      $('.treeview-menu2').attr('style', 'display:none');
-      $('.treeview-menu3').attr('style', 'display:none');
+      $('.treeview1 .fa-angle-up').attr('style', 'transform:rotate(-180deg) !important;font-size:20px;margin-right:8px;');
+      $('.treeview-menu2').attr('style', 'display:none !important');
+      $('.treeview-menu3').attr('style', 'display:none !important');
       $(this).addClass('tree_has');
     }
   })
   $('.treeview2').click(function(){
     if($(this).hasClass('tree_has'))
     {
+      $('.treeview2 .fa-angle-up').attr('style', 'transform:rotate(0deg) !important; margin-right:15px !important;font-size:20px;');
       $('.treeview-menu2').attr('style', 'display:none !important');
       $(this).removeClass('tree_has');
     }
     else
     {      
+      $('.treeview2 .fa-angle-up').attr('style', 'transform:rotate(-180deg) !important;font-size:20px;margin-right:7px;');
       $('.treeview-menu2').attr('style', 'display:block');
-      $('.treeview-menu1').attr('style', 'display:none');
-      $('.treeview-menu3').attr('style', 'display:none');
+      $('.treeview-menu1').attr('style', 'display:none !important');
+      $('.treeview-menu3').attr('style', 'display:none !important');
       $(this).addClass('tree_has');
     }
   })
   $('.treeview3').click(function(){
     if($(this).hasClass('tree_has'))
     {
+      $('.treeview3 .fa-angle-up').attr('style', 'transform:rotate(0deg) !important; margin-right:15px !important;font-size:20px;');
       $('.treeview-menu3').attr('style', 'display:none !important');
       $(this).removeClass('tree_has');
     }
     else
     {      
+      $('.treeview3 .fa-angle-up').attr('style', 'transform:rotate(-180deg) !important; margin-right:7px;font-size:20px;');
       $('.treeview-menu3').attr('style', 'display:block');
-      $('.treeview-menu2').attr('style', 'display:none');
-      $('.treeview-menu1').attr('style', 'display:none');
+      $('.treeview-menu2').attr('style', 'display:none !important');
+      $('.treeview-menu1').attr('style', 'display:none !important');
       $(this).addClass('tree_has');
     }
   })
@@ -180,11 +186,13 @@
       PanelExampleButton.addEventListener("click", function(i) {
         if($(this).hasClass('closebtn'))
         {
+          $('.ms-Icon--ChevronUp').attr('style', 'transform:rotate(0deg)');
           $('.ms-PanelAction-close').click();
           $(this).removeClass('closebtn');
         }
         else
         {
+          $('.ms-Icon--ChevronUp').attr('style', 'transform:rotate(-180deg)');
           new fabric['Panel'](PanelExamplePanel);
           $(this).addClass('closebtn');  
         }

@@ -130,4 +130,7 @@
 		padding-left: 3px;
 		padding-top: 0.3px;
 	}
+	.treeview2 .fa-angle-up{
+		transform:rotate(-180deg) !important;margin-right:7px !important;
+	}
 </style>

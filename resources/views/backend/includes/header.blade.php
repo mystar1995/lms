@@ -1,11 +1,11 @@
 <header class="main-header">
 
-    <a href="#" class="logo" style="position: fixed;z-index: 10000;color: white">
+    <a href="#" class="logo" style="position: fixed;z-index: 10000;color: white;padding-right:87px !important">
        License2Code
     </a>
 
     <nav class="navbar navbar-static-top" role="navigation">
-        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button" style="position: fixed;left: 0;margin-left: 4px; top: 0; margin-top: 50px;color: #333;">
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button" style="position: fixed;left: 0;margin-left: 0px; top: 0; margin-top: 53px;padding-top:14px;padding-left:19px;color: #333;">
             <span class="sr-only">{{ trans('labels.general.toggle_navigation') }}</span>
         </a>
 
@@ -62,7 +62,7 @@
                     <div class="ms-env">
                         <i class="ms-Icon ms-Icon--AddOnlineMeeting" style="margin-top: 12px;margin-left: -31px; float: left; color: white;"></i>
                         <span class="ms-Label" style="color: rgba(255, 255, 255, 0.88); width: 180px; font-size: 11px;position: absolute;">Environments </span>
-                        <span class="ms-Label" style="color: #ffffffe0; width: 180px; font-size: 17px;font-weight: 200;padding-top:13px;">Pty Limited... <button class="ms-Button" style="background: #5c2d91;border: #5c2d91;"><i class="ms-Icon ms-Icon--ChevronDown" style="position: absolute;margin: 4px;cursor: pointer;margin: -11px -9px 4px;"></i></i>
+                        <span class="ms-Label" style="color: #ffffffe0; width: 180px; font-size: 17px;font-weight: 200;padding-top:13px;">Pty Limited... <button class="ms-Button" style="background: #5c2d91;border: #5c2d91;"><i class="ms-Icon ms-Icon--ChevronUp" style="position: absolute;margin: 4px;cursor: pointer;margin: -11px -9px 4px;"></i></i>
                         </button> </span>
                         <div class="ms-Panel" style="margin-top: 5px;">
                           <button class="ms-Panel-closeButton ms-PanelAction-close">

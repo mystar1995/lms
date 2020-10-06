@@ -17,11 +17,11 @@
                     <span style="padding-top: 2px;">Speak Up</span>
                 </a>
             </li>
-            <li class="{{ active_class(Active::checkUriPattern('admin/blog*')) }} treeview3">
+            <li class="treeview3">
                 <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--Boards" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">{{ trans('menus.backend.blog.management') }}</span>
-                    <i class="fa fa-angle-left pull-right"></i>
+                    <i class="fa fa-angle-up pull-right" style="margin-right: 15px;font-size: 20px;"></i>
                 </a>
 
                 <ul class="treeview-menu3 {{ active_class(Active::checkUriPattern('admin/blog*'), 'menu-open') }}" style="display: none;">
@@ -54,30 +54,30 @@
                     <span style="padding-top: 2px;">Knowledge Tests</span>
                 </a>
             </li>
-            <li class="{{ active_class(Active::checkUriPattern('admin/w*')) }} treeview2">
+            <li class="treeview2">
                 <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--FabricOpenFolderHorizontal" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">Knowledgebase</span>
-                    <i class="fa fa-angle-left pull-right"></i>
+                    <i class="fa fa-angle-up pull-right" style="margin-right: 15px;font-size: 20px;"></i>
                 </a>
 
                 <ul class="treeview-menu2" style="display: none;">
-                    <li class="">
+                    <li class="{{ active_class(Active::checkUriPattern('admin/wcode')) }}">
                         <a href="{{ route('admin.wcode') }}" class="code">
                             <span>Code of Ethics</span>
                         </a>
                     </li>
-                    <li class="">
+                    <li class="{{ active_class(Active::checkUriPattern('admin/wdesign')) }}">
                         <a href="{{ route('admin.wdesign') }}" class="design">
                             <span>Analysis & Design</span>
                         </a>
                     </li>
-                    <li class="">
+                    <li class="{{ active_class(Active::checkUriPattern('admin/wdev')) }}">
                         <a href="{{ route('admin.wdev') }}" class="dev">
                             <span>Development</span>
                         </a>
                     </li>
-                    <li class="">
+                    <li class="{{ active_class(Active::checkUriPattern('admin/wqa')) }}">
                         <a href="{{ route('admin.wqa') }}" class="qa">
                             <span>QA & Testing</span>
                         </a>
@@ -88,7 +88,7 @@
                 <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--DelveAnalyticsLogo" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">Directories</span>
-                    <i class="fa fa-angle-left pull-right"></i>
+                    <i class="fa fa-angle-up pull-right" style="margin-right: 15px;font-size: 20px;"></i>
                 </a>
 
                 <ul class="treeview-menu1" style="display: none;">
