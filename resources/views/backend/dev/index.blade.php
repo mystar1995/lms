@@ -18,7 +18,7 @@
 					<span style="cursor: pointer;">Delete</span>
 				</div>				
 			</div>
-			<div class="col-md-1 top-content ms-env">
+			<div class="col-md-1 top-content ms-setting">
 				<div  class="ms-Button" style="cursor: pointer;">					
 					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--Edit" style=" color: #5597e4"></i>
 					<span>Content</span></div>
