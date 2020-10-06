@@ -48,6 +48,21 @@ return [
             'deleted' => 'deleted Course',
             'updated' => 'updated Course',
         ],
+        'blog1categories' => [
+            'created' => 'created Course Category',
+            'deleted' => 'deleted Course Category',
+            'updated' => 'updated Course Category',
+        ],
+        'blog1tags' => [
+            'created' => 'created Course Tag',
+            'deleted' => 'deleted Course Tag',
+            'updated' => 'updated Course Tag',
+        ],
+        'blog1s' => [
+            'created' => 'created Course',
+            'deleted' => 'deleted Course',
+            'updated' => 'updated Course',
+        ],
         'users' => [
             'changed_password'    => 'changed password for user',
             'created'             => 'created user',

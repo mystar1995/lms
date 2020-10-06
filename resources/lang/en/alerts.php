@@ -41,6 +41,21 @@ return [
 	"deleted" => "The Course was successfully deleted.",
 	"updated" => "The Course was successfully updated.",
 	],
+	"blog1categories" => [
+	"created" => "The Course Category was successfully created.",
+	"deleted" => "The Course Category was successfully deleted.",
+	"updated" => "The Course Category was successfully updated.",
+	],
+	"blog1tags" => [
+	"created" => "The Course Tag was successfully created.",
+	"deleted" => "The Course Tag was successfully deleted.",
+	"updated" => "The Course Tag was successfully updated.",
+	],
+	"blog1s" => [
+	"created" => "The Course was successfully created.",
+	"deleted" => "The Course was successfully deleted.",
+	"updated" => "The Course was successfully updated.",
+	],
 	"settings" => [
 	"updated" => "The Setting was successfully updated.",
 	],
