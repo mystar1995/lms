@@ -40,6 +40,9 @@
 	</div>
 </div>
                     
+@endsection
+
+@section('content')
 
 <section class="section">
   <div class="section-body" style="background-color: white; padding: 30px; padding-top: 0px; padding-bottom: 20px;">
@@ -67,9 +70,6 @@
     </div>
   </div>
 </section>
-@endsection
-
-@section('content')
 @endsection
 
 <style type="text/css">

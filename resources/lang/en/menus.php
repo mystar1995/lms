@@ -60,12 +60,12 @@ return [
 	"management" => "Course",
 	"main" => "Courses",
 	],
-	"blog1s" => [
-	"all" => "All Course",
-	"create" => "Create Course",
-	"edit" => "Edit Course",
-	"management" => "Course",
-	"main" => "Courses",
+	"ktest" => [
+	"all" => "All Test",
+	"create" => "Create New",
+	"edit" => "Edit Test",
+	"management" => "Test",
+	"main" => "Testa",
 	],
 	"blogcategories" => [
 	"all" => "All Course Categories",

@@ -48,7 +48,7 @@
                     @endauth
                 </ul>
             </li>
-            <li class="{{ active_class(Active::checkUriPattern('admin/ktest')) }}">
+            <li class="{{ active_class(Active::checkUriPattern('admin/ktest*')) }}">
                 <a href="{{ route('admin.ktest') }}" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--AddEvent" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">Knowledge Tests</span>
