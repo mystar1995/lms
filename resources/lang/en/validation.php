@@ -191,29 +191,9 @@ return [
                 'status'           => 'Status',
             ],
 
-            'blog1categories' => [
-                'title'     => 'Course Category',
-                'is_active' => 'Active',
-            ],
-
-            'blog1tags' => [
-                'title'     => 'Course Tag',
-                'is_active' => 'Active',
-            ],
-
-            'blog1s' => [
-                'title'            => 'Course Title',
-                'category'         => 'Course Category',
-                'publish'          => 'Period Date & time',
-                'image'            => 'Featured Image',
-                'content'          => 'Content',
-                'tags'             => 'Tags',
-                'meta-title'       => 'Meta Title',
-                'slug'             => 'Slug',
-                'cannonical_link'  => 'Cannonical Link',
-                'meta_keyword'     => 'Meta Keyword',
-                'meta_description' => 'Meta Description',
-                'status'           => 'Status',
+            'ktest' => [
+                'title'            => 'Test Title',
+                'content'          => 'Test Content',
             ],
 
             'settings' => [

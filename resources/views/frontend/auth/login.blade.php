@@ -65,7 +65,7 @@
         display: none;
     }
     #app-layout{
-        background-image: url('{{ asset('img/Background.png') }}');
+        background-image: url('{{ asset('img/Background.jpg') }}');
         background-size: cover;
     }
     .panel{

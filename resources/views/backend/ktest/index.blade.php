@@ -31,9 +31,9 @@
                 <table id="ktest-table" class="table table-condensed table-hover table-bordered">
                     <thead>
                         <tr>
-                           {{--<th>{{ trans('labels.backend.ktest.table.number') }}</th>--}} 
-                            {{--<th>{{ trans('labels.backend.ktest.table.title') }}</th>--}}
-                            {{--<th>{{ trans('labels.general.actions') }}</th>--}}
+                            <th>{{ trans('labels.backend.ktest.table.number') }}</th>
+                            <th>{{ trans('labels.backend.ktest.table.title') }}</th>
+                            <th>{{ trans('labels.general.actions') }}</th>
                         </tr>
                     </thead>
                     <thead class="transparent-bg">
