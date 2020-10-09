@@ -12283,3 +12283,14 @@ var Backend = {}; // common variable used in all the files of the backend
     };
 
 })();
+
+// $('.test_create').click(function(){
+//     $.ajax({
+//         url:'/admin/ajax_create_test',
+//         data: {title:'title', desc:'desc'},
+//         type: 'POST',
+//         success:function(res){
+
+//         }
+//     })
+// })

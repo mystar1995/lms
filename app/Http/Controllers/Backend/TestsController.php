@@ -31,6 +31,11 @@ class TestsController extends Controller
 
         return view('backend.ktest.create');
     }
+    // public function ajax_create()
+    // {
+    //     //$title = $_POST['title'];
+    //     echo 'title';
+    // }
 
     /**
      * Used to display form for edit profile.

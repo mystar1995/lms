@@ -21,7 +21,7 @@
                 <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--Boards" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">{{ trans('menus.backend.blog.management') }}</span>
-                    <i class="fa fa-angle-up pull-right" style="margin-right: 15px;font-size: 20px;"></i>
+                    <i class="fa fa-angle-down pull-right" style="margin-right: 15px;font-size: 20px;"></i>
                 </a>
 
                 <ul class="treeview-menu3 {{ active_class(Active::checkUriPattern('admin/blog*'), 'menu-open') }}" style="display: none;">
@@ -49,7 +49,7 @@
                 </ul>
             </li>
             <li class="{{ active_class(Active::checkUriPattern('admin/ktest*')) }}">
-                <a href="{{ route('admin.ktest') }}" style="display: flex;">
+                <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--AddEvent" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">Knowledge Tests</span>
                 </a>
@@ -58,7 +58,7 @@
                 <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--FabricOpenFolderHorizontal" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">Knowledgebase</span>
-                    <i class="fa fa-angle-up pull-right" style="margin-right: 15px;font-size: 20px;"></i>
+                    <i class="fa fa-angle-down pull-right" style="margin-right: 15px;font-size: 20px;"></i>
                 </a>
 
                 <ul class="treeview-menu2" style="display: none;">
@@ -88,7 +88,7 @@
                 <a href="#" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--DelveAnalyticsLogo" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">Directories</span>
-                    <i class="fa fa-angle-up pull-right" style="margin-right: 15px;font-size: 20px;"></i>
+                    <i class="fa fa-angle-down pull-right" style="margin-right: 15px;font-size: 20px;"></i>
                 </a>
 
                 <ul class="treeview-menu1" style="display: none;">

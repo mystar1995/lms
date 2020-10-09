@@ -27,7 +27,7 @@
                     @include("backend.ktest.form")
                         <div class="edit-form-btn">
                         {{ link_to_route('admin.test_index', trans('buttons.general.cancel'), [], ['class' => 'btn btn-danger btn-md']) }}
-                        {{ Form::submit(trans('buttons.general.crud.create'), ['class' => 'btn btn-primary btn-md']) }}
+                        <input type="button" value="Create" class="btn btn-primary btn-md test_create">
                         <div class="clearfix">
                     </div>
                 </div>
