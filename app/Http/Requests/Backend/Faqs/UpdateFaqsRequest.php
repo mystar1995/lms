@@ -24,8 +24,9 @@ class UpdateFaqsRequest extends FormRequest
     public function rules()
     {
         return [
-            'question' => 'required|max:191',
-            'answer'   => 'required',
+            'question_name' => 'required|max:191',
+            'question_text'   => 'required',
+            'testcate'   => 'required',
         ];
     }
 
@@ -37,9 +38,10 @@ class UpdateFaqsRequest extends FormRequest
     public function messages()
     {
         return [
-            'question.required' => 'Question field is required.',
+            'question_name.required' => 'Question Name field is required.',
             'question.max'      => 'Question may not be grater than 191 character.',
-            'answer.required'   => 'Answer field is required.',
+            'question_text.required'   => 'Question Text field is required.',
+            'testcate.required'   => 'TestCategory field is required.',
         ];
     }
 }

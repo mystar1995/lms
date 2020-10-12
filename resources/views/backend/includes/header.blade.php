@@ -62,7 +62,7 @@
                     <div class="ms-env">
                         <i class="ms-Icon ms-Icon--AddOnlineMeeting" style="margin-top: 12px;margin-left: -31px; float: left; color: white;"></i>
                         <span class="ms-Label" style="color: rgba(255, 255, 255, 0.88); width: 180px; font-size: 11px;position: absolute;">Environments </span>
-                        <span class="ms-Label" style="color: #ffffffe0; width: 180px; font-size: 17px;font-weight: 200;padding-top:13px;">Pty Limited... <button class="ms-Button" style="background: #5c2d91;border: #5c2d91;"><i class="ms-Icon ms-Icon--ChevronUp" style="position: absolute;margin: 4px;cursor: pointer;margin: -11px -9px 4px;"></i></i>
+                        <span class="ms-Label" style="color: #ffffffe0; width: 180px; font-size: 17px;font-weight: 200;padding-top:13px;">Pty Limited... <button class="ms-Button" style="background: #5c2d91;border: #5c2d91;"><i class="ms-Icon ms-Icon--ChevronDown" style="position: absolute;margin: 4px;cursor: pointer;margin: -11px -9px 4px;"></i></i>
                         </button> </span>
                         <div class="ms-Panel" style="margin-top: 5px;">
                           <button class="ms-Panel-closeButton ms-PanelAction-close">

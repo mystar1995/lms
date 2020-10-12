@@ -21,8 +21,9 @@
                 <table id="faqs-table" class="table table-condensed table-hover table-bordered">
                     <thead>
                         <tr>
-                            <th>{{ trans('labels.backend.faqs.table.question') }}</th>
-                            <th>{{ trans('labels.backend.faqs.table.answer') }}</th>
+                            <th>TestCategory</th>
+                            <th>Question Name</th>
+                            <th>Question Text</th>
                             <th>{{ trans('labels.backend.faqs.table.status') }}</th>
                             <th>{{ trans('labels.backend.faqs.table.updatedat') }}</th>
                             <th>{{ trans('labels.general.actions') }}</th>
@@ -31,15 +32,19 @@
                     <thead class="transparent-bg">
                         <tr>
                             <th>
-                                {!! Form::text('question', null, ["class" => "search-input-text form-control", "data-column" => 0, "placeholder" => trans('labels.backend.faqs.table.question')]) !!}
+                                {!! Form::text('testcate', null, ["class" => "search-input-text form-control", "data-column" => 0, "placeholder" => 'TestCategory']) !!}
                                 <a class="reset-data" href="javascript:void(0)"><i class="fa fa-times"></i></a>
                             </th>
                             <th>
-                                {!! Form::text('answer', null, ["class" => "search-input-select form-control", "data-column" => 1, "placeholder" => trans('labels.backend.faqs.table.answer')]) !!}
+                                {!! Form::text('question_name', null, ["class" => "search-input-text form-control", "data-column" => 1, "placeholder" => 'Question Name']) !!}
                                 <a class="reset-data" href="javascript:void(0)"><i class="fa fa-times"></i></a>
                             </th>
                             <th>
-                                {!! Form::select('status', [1 => 'Active', 0 => 'InActive'], null, ["class" => "search-input-select form-control", "data-column" => 2, "placeholder" => trans('labels.backend.faqs.table.all')]) !!}
+                                {!! Form::text('question_text', null, ["class" => "search-input-select form-control", "data-column" => 2, "placeholder" => 'Question Text']) !!}
+                                <a class="reset-data" href="javascript:void(0)"><i class="fa fa-times"></i></a>
+                            </th>
+                            <th>
+                                {!! Form::select('status', [1 => 'Active', 0 => 'InActive'], null, ["class" => "search-input-select form-control", "data-column" => 3, "placeholder" => trans('labels.backend.faqs.table.all')]) !!}
                             </th>
                             {{-- <th></th> --}}
                             <th></th>
@@ -84,8 +89,9 @@
                     type: 'post'
                 },
                 columns: [
-                    {data: 'question', name: '{{config('module.faqs.table')}}.question'},
-                    {data: 'answer', name: '{{config('module.faqs.table')}}.answer'},
+                    {data: 'testcate', name: '{{config('module.faqs.table')}}.testcate'},
+                    {data: 'question_name', name: '{{config('module.faqs.table')}}.question_name'},
+                    {data: 'question_text', name: '{{config('module.faqs.table')}}.question_text'},
                     {data: 'status', name: '{{config('module.faqs.table')}}.status'},
                     {data: 'updated_at', name: '{{config('module.faqs.table')}}.updated_at'},
                     {data: 'actions', name: 'actions', searchable: false, sortable: false}

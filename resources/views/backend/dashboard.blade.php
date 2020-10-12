@@ -15,7 +15,7 @@
             </div><!-- /.box tools -->
         </div><!-- /.box-header -->
         <div class="box-body">
-            {{--{!! history()->render() !!}--}}
+            {!! history()->render() !!}
         </div><!-- /.box-body -->
     </div><!--box box-info-->
 @endsection

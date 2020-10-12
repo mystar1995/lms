@@ -110,11 +110,11 @@ return [
 	"main" => "Course Pages",
 	],
 	"faqs" => [
-	"all" => "All Faq Page",
-	"create" => "Create Faq Page",
-	"edit" => "Edit Faq Page",
-	"management" => "Faq Management",
-	"main" => "Faq Pages",
+	"all" => "All Test Page",
+	"create" => "Create Test Page",
+	"edit" => "Edit Test Page",
+	"management" => "Test Management",
+	"main" => "Test Pages",
 	],
 	"settings" => [
 	"all" => "All Settings",

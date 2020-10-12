@@ -31,9 +31,12 @@ class FaqsTableController extends Controller
     public function __invoke(ManageFaqsRequest $request)
     {
         return Datatables::of($this->faqs->getForDataTable())
-            ->escapeColumns(['question'])
-            ->addColumn('answer', function ($faqs) {
-                return $faqs->answer;
+            ->escapeColumns(['question name'])
+            ->addColumn('testcate', function ($faqs) {
+                return $faqs->testcate ;
+            })
+            ->addColumn('question text', function ($faqs) {
+                return $faqs->question_answer ;
             })
             ->addColumn('status', function ($faqs) {
                 return $faqs->status_label;

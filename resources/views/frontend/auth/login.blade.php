@@ -25,14 +25,19 @@
                             {{ Form::input('password', 'password', null, ['class' => 'ms-TextField-field', 'placeholder' => trans('Password')]) }}
                         </div><!--col-md-6-->
                     </div><!--form-group-->
-
                     <div class="form-group">
-                        <div class="col-md-12" style="display: flex;margin-bottom: 30px;">
+                        <div class="checkbox" style="padding-left: 141px;">
+                            <label>
+                                {{ Form::checkbox('remember') }} {{ trans('labels.frontend.auth.remember_me') }}
+                            </label>
+                        </div>
+                        <div class="col-md-12" style="display: flex;margin-bottom: 10px;">
                             {{ Form::submit(trans('Sign in'), ['class' => 'ms-Button ms-Button--primary', 'style' => 'color:white; font-weight:bold; margin-top:5px;']) }}
 
                           <!--   {{ link_to_route('frontend.auth.password.reset', trans('labels.frontend.passwords.forgot_password')) }} -->
                         </div><!--col-md-6-->
-                        <div class="mt-5 text-muted text-center" style="color: #6c757d !important;margin-top: 38px !important"><span>Don't have an account?</span>
+                        
+                        <div class="mt-5 text-muted text-center" style="color: #6c757d !important;margin-top: 10px !important"><span>Don't have an account?</span>
                             <span style="font-weight: bold;">{{ link_to_route('frontend.auth.register', trans('Sign Up')) }}</span>
                         </div>
                         <div style="display: flex; margin-top: 20px;margin-left: 28%;width: 220px;">

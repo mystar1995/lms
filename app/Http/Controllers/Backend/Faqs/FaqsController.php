@@ -67,7 +67,7 @@ class FaqsController extends Controller
     {
         $this->faq->create($request->all());
 
-        return new RedirectResponse(route('admin.faqs.index'), ['flash_success' => trans('alerts.backend.faqs.created')]);
+        ///return new RedirectResponse(route('admin.faqs.index'), ['flash_success' => trans('alerts.backend.faqs.created')]);
     }
 
     /**

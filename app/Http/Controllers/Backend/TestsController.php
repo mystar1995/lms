@@ -7,6 +7,7 @@ use App\Models\Access\Permission\Permission;
 use App\Models\Access\Role\Role;
 use App\Models\Access\User\User;
 use App\Models\Settings\Setting;
+use App\Models\Ktest\Ktest;
 use Illuminate\Http\Request;
 
 /**
@@ -31,11 +32,19 @@ class TestsController extends Controller
 
         return view('backend.ktest.create');
     }
-    // public function ajax_create()
-    // {
-    //     //$title = $_POST['title'];
-    //     echo 'title';
-    // }
+    public function ajax_create()
+    {
+        $ktest = new Ktest;
+        $ktest->title = $_GET['title'];
+        $ktest->desc = $_GET['desc'];
+        var_dump($_GET['title']);
+        $ktest->save();
+        return redirect('insert')->with('status',"Insert successfully");
+    }
+    public function view_testcate()
+    {
+            
+    }
 
     /**
      * Used to display form for edit profile.

@@ -24,8 +24,9 @@ class FaqsRepository extends BaseRepository
         return $this->query()
             ->select([
                 config('module.faqs.table').'.id',
-                config('module.faqs.table').'.question',
-                config('module.faqs.table').'.answer',
+                config('module.faqs.table').'.question_name',
+                config('module.faqs.table').'.question_text',
+                config('module.faqs.table').'.testcate',
                 config('module.faqs.table').'.status',
                 config('module.faqs.table').'.created_at',
             ]);

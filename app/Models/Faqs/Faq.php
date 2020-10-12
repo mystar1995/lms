@@ -27,7 +27,7 @@ class Faq extends BaseModel
      *
      * @var array
      */
-    protected $fillable = ['question', 'answer', 'status'];
+    protected $fillable = ['testcate','question_name', 'question_text', 'c1','g1','f1','c2','g2','f2','c3','g3','f3','c4','g4','f4','c5','g5','f5', 'status'];
 
     public function __construct(array $attributes = [])
     {

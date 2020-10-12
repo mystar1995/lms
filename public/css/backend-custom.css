@@ -1125,6 +1125,16 @@ li button:focus{
 	background-color: #471b79;
 	border-color: #471b79;
 }
+.general-area .tox-tinymce{
+    width: 87% !important;
+}
+.answer-area .tox-tinymce{
+    width: 87% !important;
+    height: 135px !important;
+}
+#history, #overview{
+	background-color:#fff !important;
+}
 
 
 

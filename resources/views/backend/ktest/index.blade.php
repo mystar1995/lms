@@ -6,7 +6,7 @@
     <div class="top-area">
 		<div class="" style="padding: 8px 0px 0px 30px;">
 			<div class="row">
-				<h3 class="ms-Label" style="font-size: 24px; color: dimgrey">Knowledge Test</h3>
+				<h3 class="ms-Label" style="font-size: 24px; color: dimgrey">Test Category</h3>
 			</div>
 		</div>
 	</div>
@@ -19,7 +19,7 @@
   <div class="section-body" style="background-color: white; padding: 30px; padding-top: 30px; padding-bottom: 10px;">
   	<div class="box box-info">
         <div class="box-header with-border">
-            <h3 class="box-title">Test Management</h3>
+            <h3 class="box-title">Test Category Management</h3>
 
             <div class="box-tools pull-right">
                 @include('backend.ktest.partials.ktest-header-buttons')
@@ -31,8 +31,8 @@
                 <table id="ktest-table" class="table table-condensed table-hover table-bordered">
                     <thead>
                         <tr>
-                            <th>{{ trans('labels.backend.ktest.table.number') }}</th>
-                            <th>{{ trans('labels.backend.ktest.table.title') }}</th>
+                            <th>Title</th>
+                            <th>Content</th>
                             <th>{{ trans('labels.general.actions') }}</th>
                         </tr>
                     </thead>

@@ -23,4 +23,7 @@
  *{
  	font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
  }
- 
+.checkbox label input{
+	height: 14px !important;
+	width: 14px !important;
+}

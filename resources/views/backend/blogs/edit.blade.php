@@ -10,7 +10,6 @@
 @endsection
 
 @section('content')
-
     {{ Form::model($blog, ['route' => ['admin.blogs.update', $blog], 'class' => 'form-horizontal', 'role' => 'form', 'method' => 'PATCH', 'id' => 'edit-role', 'files' => true]) }}
 
         <div class="box box-info">

@@ -24,6 +24,11 @@ class KtestController extends Controller
 
         return view('backend.ktest.index');
     }
+    public function create()
+    {
+        $title = $_GET['test_title'];
+        $content = $_GET['test_content'];
+    }
 
     /**
      * Used to display form for edit profile.

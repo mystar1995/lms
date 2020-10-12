@@ -17,8 +17,9 @@ class FaqsResource extends Resource
     {
         return [
             'id'            => $this->id,
-            'question'      => $this->question,
-            'answer'        => $this->answer,
+            'question_name'      => $this->question_name,
+            'question_text'        => $this->question_text,
+            'testcate'        => $this->question_text,
             'status'        => ($this->isActive()) ? 'Active' : 'InActive',
             'created_at'    => $this->created_at->toDateString(),
         ];

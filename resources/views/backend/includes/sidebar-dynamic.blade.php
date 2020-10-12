@@ -8,7 +8,7 @@
             <li class="{{ active_class(Active::checkUriPattern('admin/dashboard')) }}">
                 <a href="{{ route('admin.dashboard') }}" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--Home" style="margin-right:21px;"></i>
-                    <span style="padding-top: 2px;">Home</span>
+                    <span style="padding-top: 2px;">Dashboard</span>
                 </a>
             </li>
             <li class="{{ active_class(Active::checkUriPattern('admin/speakups')) }}">
@@ -48,8 +48,14 @@
                     @endauth
                 </ul>
             </li>
-            <li class="{{ active_class(Active::checkUriPattern('admin/ktest*')) }}">
-                <a href="#" style="display: flex;">
+            {{--<li class="{{ active_class(Active::checkUriPattern('admin/ktest*')) }}">--}}
+                {{--<a href="{{ route('admin.ktest') }}" style="display: flex;">--}}
+                    {{--<i class="ms-Icon ms-font-lg ms-Icon--AddEvent" style="margin-right:21px;"></i>--}}
+                    {{--<span style="padding-top: 2px;">Knowledge Tests</span>--}}
+                {{--</a>--}}
+            {{--</li>--}}
+            <li class="{{ active_class(Active::checkUriPattern('admin/faqs*')) }}">
+                <a href="{{ route('admin.faqs.index')}}" style="display: flex;">
                     <i class="ms-Icon ms-font-lg ms-Icon--AddEvent" style="margin-right:21px;"></i>
                     <span style="padding-top: 2px;">Knowledge Tests</span>
                 </a>

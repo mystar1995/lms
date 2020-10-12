@@ -119,8 +119,9 @@ class FaqsController extends APIController
     public function validateFaq(Request $request)
     {
         $validation = Validator::make($request->all(), [
-            'question' => 'required|max:191',
-            'answer'   => 'required',
+            'question_name' => 'required|max:191',
+            'question_text'   => 'required',
+            'testcate'   => 'required',
         ]);
 
         return $validation;

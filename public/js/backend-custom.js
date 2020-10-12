@@ -12287,10 +12287,10 @@ var Backend = {}; // common variable used in all the files of the backend
 // $('.test_create').click(function(){
 //     $.ajax({
 //         url:'/admin/ajax_create_test',
-//         data: {title:'title', desc:'desc'},
-//         type: 'POST',
+//         data: {title:$('.test_title').val(), desc:$('.test_content').val()},
+//         type: 'GET',
 //         success:function(res){
-
+//             window.location.href('/admin/ktest_index');
 //         }
 //     })
 // })

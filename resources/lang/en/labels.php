@@ -149,7 +149,7 @@ return [
 	"ktest" => [
 	"create" => "Create Test",
 	"edit" => "Edit Course",
-	"management" => "Course Management",
+	"management" => "Test Management",
 	"title" => "All Test",
 	"table" => [
 	"title" => "All Test Title",
@@ -168,12 +168,12 @@ return [
 	"google" => "Google Analytics Track Code",
 	],
 	"faqs" => [
-	"create" => "Create FAQ",
-	"edit" => "Edit FAQ",
-	"management" => "FAQ Management",
-	"title" => "FAQ",
+	"create" => "Create Test",
+	"edit" => "Edit Test",
+	"management" => "Test Management",
+	"title" => "Test",
 	"table" => [
-	"title" => "FAQs",
+	"title" => "Tests",
 	"publish" => "PublishDateTime",
 	"status" => "Status",
 	"createdat" => "Created At",
