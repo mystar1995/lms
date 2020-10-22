@@ -84,6 +84,19 @@
     </body>
 </html>
 <style type="text/css">
+ .set_area img{
+    width: 54px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    cursor: pointer;
+
+ }
+ .set_area {
+   display: flex; width: 100%;flex-wrap:wrap;
+ }
+ .ms-Panel-contentInner{
+   padding: 0 19px 20px !important;
+ }
 
 </style>
 <script src="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/js/fabric.min.js"></script>
@@ -257,4 +270,74 @@
     for (var i = 0; i < DropdownHTMLElements.length; ++i) {
       var Dropdown = new fabric['Dropdown'](DropdownHTMLElements[i]);
     }
+    //////////////////////set image///////////////////////
+    $('.set_area img').click(function(){
+      $('img').css('border', 'none');
+      $('img').css('padding','0px');
+      $(this).css('border','2px solid #1b1b1b94');
+      $(this).css('padding','2px');
+      
+    })
+    $('.set_area .1').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/55.jpg") }})');
+    })
+    $('.set_area .2').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/44.jpg") }})');
+    })
+    $('.set_area .3').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/1.jpg") }})');
+    })
+    $('.set_area .4').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/4.jpg") }})');
+    })
+    $('.set_area .5').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/5.jpg") }})');
+    })
+    $('.set_area .6').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/6.jpg") }})');
+    })
+    $('.set_area .7').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/7.jpg") }})');
+    })
+    $('.set_area .default').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/default.jpg") }})');
+    })
+    $('.set_area .8').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/8.jpg") }})');
+    })
+    $('.set_area .9').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/9.jpg") }})');
+    })
+    $('.set_area .10').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/10.jpg") }})');
+    })
+    $('.set_area .11').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/11.jpg") }})');
+    })
+    $('.set_area .22').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/22.jpg") }})');
+    })
+    $('.set_area .33').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/33.jpg") }})');
+    })
+    $('.set_area .44').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/44.jpg") }})');
+    })
+    $('.set_area .55').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/55.jpg") }})');
+    })
+    $('.set_area .66').click(function(){
+        $('.navbar-static-top').css('background-image','url({{ asset("img/theme/top/66.jpg") }})');
+    })
+    $('.view').click(function(){
+      $('.set_area').css('height','auto');
+      $(this).css('display','none');
+      $('.hideset').css('display','block');
+    })
+    $('.hideset').click(function(){
+      $(this).css('display','none');
+      $('.view').css('display','block');
+      $('.set_area').css('height','115px');
+    })
+
 </script>

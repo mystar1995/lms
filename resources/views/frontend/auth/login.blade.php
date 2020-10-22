@@ -45,8 +45,17 @@
                                 <span class="lineor" style="margin-left: 5px; padding-right: 5px;"> or </span>
                             <div class="line2"></div>
                         </div>
-                        <a href="https://login.microsoftonline.com/" class="btn btn-outline-primary btn-lg btn-block office" tabindex="4" style=" color: black !important;font-size: 14px !important;height: 42px;height: 42px !important;width: 215px !important;border: 1px solid #c8c8c8;margin: auto;border-radius: 0px; margin-top: 20px ; margin-bottom: 70px;font-weight: bold;">
-                          <img src="{{ asset('img/small-logo.png') }}" style="width: 15px;margin-right: 2px;margin-bottom: 3px"> Sign in with Microsoft
+                        <a href="https://login.microsoftonline.com/" class="btn btn-outline-primary btn-lg btn-block office micro" tabindex="4" style="margin-top: 14px;">
+                          <img src="{{ asset('img/small-logo.png') }}" style="width: 15px;margin-right: 2px;margin-bottom: 3px;"> Sign in with Microsoft
+                        </a>
+                        <a href="https://github.com/login" class="btn btn-outline-primary btn-lg btn-block social_btn git" tabindex="4" style="">
+                            <img src="{{ asset('img/git.webp') }}" style="width: 25px;margin-right: 2px;margin-bottom: 0px;"> Sign in with GitHub
+                        </a>
+                        <a href="https://id.atlassian.com/login/" class="btn btn-outline-primary btn-lg btn-block social_btn atl" tabindex="4" style="">
+                         <img src="{{ asset('img/at.png') }}" style="width: 15px;margin-right: 2px;margin-bottom: 3px;"> Sign in with Atlassian
+                        </a>
+                        <a href="https://accounts.google.com/" class="btn btn-outline-primary btn-lg btn-block social_btn google" tabindex="4" style="color: black !important; border: solid 1px grey">
+                            <img src="{{ asset('img/th.jpg') }}" style="width: 15px;margin-right: 2px;margin-bottom: 3px;"> Sign in with Google
                         </a>
                     </div><!--form-group-->
 
@@ -87,4 +96,27 @@
         background-color: #c5c5c5;
         margin-top: 10px;
     }
+    .micro{
+    margin-top: 20px; font-size: 14px !important;margin-bottom: 10px;background-color: #309af4; border-color: #309af4;
+  }
+  .micro:hover{background-color: #1a74c1 !important;}
+  .git{
+    margin-top: 0px; font-size: 14px !important;margin-bottom: 10px;background-color: #333333;border-color: #333333;
+  }
+  .git:hover{background-color: #191919 !important;}
+  .google{
+    margin-top: 0px; font-size: 14px !important;margin-bottom: 10px; 
+  }
+  .google:hover{ background-color: #fff !important; border: solid 1px #000 !important; }
+  .atl{
+    margin-top: 0px; font-size: 14px !important;margin-bottom: 10px;background-color: #57af3d;border-color: #57af3d;
+  }
+  .atl:hover{background-color: #489a2f !important; }
+  .btn-outline-primary{
+    
+    width: 215px !important;margin: auto;border-radius: 0px !important;
+    color: white !important;
+    font-family:Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    transition:color .05s ease-in-out,background-color .05s ease-in-out,border-color .05s ease-in-out,box-shadow .05s ease-in-out;
+  }
 </style>

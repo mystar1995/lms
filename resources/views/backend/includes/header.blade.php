@@ -1,4 +1,5 @@
-<header class="main-header">
+
+<header class="main-header" style="">
 
     <a href="#" class="logo" style="position: fixed;z-index: 10000;color: white;padding-right:87px !important">
        License2Code
@@ -62,7 +63,7 @@
                     <div class="ms-env">
                         <i class="ms-Icon ms-Icon--AddOnlineMeeting" style="margin-top: 12px;margin-left: -31px; float: left; color: white;"></i>
                         <span class="ms-Label" style="color: rgba(255, 255, 255, 0.88); width: 180px; font-size: 11px;position: absolute;">Environments </span>
-                        <span class="ms-Label" style="color: #ffffffe0; width: 180px; font-size: 17px;font-weight: 200;padding-top:13px;">Pty Limited... <button class="ms-Button" style="background: #5c2d91;border: #5c2d91;"><i class="ms-Icon ms-Icon--ChevronDown" style="position: absolute;margin: 4px;cursor: pointer;margin: -11px -9px 4px;"></i></i>
+                        <span class="ms-Label" style="color: #ffffffe0; width: 180px; font-size: 17px;font-weight: 200;padding-top:13px;">Pty Limited... <button class="ms-Button" style="background-color: unset;border: unset;"><i class="ms-Icon ms-Icon--ChevronDown" style="position: absolute;margin: 4px;cursor: pointer;margin: -11px -9px 4px;"></i></i>
                         </button> </span>
                         <div class="ms-Panel" style="margin-top: 5px;">
                           <button class="ms-Panel-closeButton ms-PanelAction-close">
@@ -93,14 +94,58 @@
                     <div class="ms-setting">
                         <button class="ms-Button ms-Button--indigo"><i class="ms-Icon ms-font-lg ms-Icon--Settings" style="color: white;padding-top: 3px;"></i></button>
                         <div class="ms-Panel">
+                            <p class="ms-Panel-headerText" style="font-weight: bolder;margin-left: 18px;">Settings</p>
                           <button class="ms-Panel-closeButton ms-PanelAction-close">
                             <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel" style="padding-top: 2px;"></i>
                           </button>
-                          <div class="ms-Panel-contentInner">
-                            <p class="ms-Panel-headerText">Settings</p>
+                              <div class="ms-Panel-contentInner">
+                            <p class="ms-Panel-headerText" style="font-weight: bolder;font-size: 17px;margin-top: unset;">Themes</p>
                             <div class="ms-Panel-content">
-                              
-                            </div>
+                                <div class="set_area" style="height: 115px; overflow-y: hidden;">
+                                    <img class="1" value="1" src="{{ asset('img/theme/1.png') }}">
+                                    <img class="2" src="{{ asset('img/theme/2.png') }}">
+                                    <img class="default" src="{{ asset('img/theme/default.png') }}">
+                                    <img class="3" src="{{ asset('img/theme/3.png') }}">
+                                    <img class="4" src="{{ asset('img/theme/4.png') }}">
+                                    <img class="5" src="{{ asset('img/theme/5.png') }}">
+                                    <img class="6" src="{{ asset('img/theme/6.png') }}">
+                                    <img class="7" src="{{ asset('img/theme/7.png') }}">
+                                    <img class="8" src="{{ asset('img/theme/8.png') }}">
+                                    <img class="9" src="{{ asset('img/theme/9.png') }}">
+                                    <img class="10" src="{{ asset('img/theme/10.png') }}">
+                                    <img class="11" src="{{ asset('img/theme/11.png') }}">
+                                    <img class="22" src="{{ asset('img/theme/22.png') }}">
+                                    <img class="33" src="{{ asset('img/theme/33.png') }}">
+                                    <img class="44" src="{{ asset('img/theme/44.png') }}">
+                                    <img class="55" src="{{ asset('img/theme/55.png') }}">
+                                    <img class="66" src="{{ asset('img/theme/66.png') }}">
+                                    <img class="1" src="{{ asset('img/theme/77.png') }}">
+                                    <img class="2" src="{{ asset('img/theme/88.png') }}">
+                                    <img class="3" src="{{ asset('img/theme/99.png') }}">
+                                    <img class="4" src="{{ asset('img/theme/00.png') }}">
+                                    <img class="5" src="{{ asset('img/theme/111.png') }}">
+                                    <img class="6" src="{{ asset('img/theme/222.png') }}">
+                                    <img class="7" src="{{ asset('img/theme/333.png') }}">
+                                    <img class="8" src="{{ asset('img/theme/444.png') }}">
+                                    <img class="9" src="{{ asset('img/theme/555.png') }}">
+                                    <img class="10" src="{{ asset('img/theme/666.png') }}">
+                                    <img class="11" src="{{ asset('img/theme/777.png') }}">
+                                    <img class="22" src="{{ asset('img/theme/888.png') }}">
+                                    <img class="44" src="{{ asset('img/theme/000.png') }}">
+                                    <img class="55" src="{{ asset('img/theme/1111.png') }}">
+                                    <img class="66" src="{{ asset('img/theme/2222.png') }}">
+                                    <img class="1" src="{{ asset('img/theme/3333.png') }}">
+                                    <img class="2" src="{{ asset('img/theme/4444.png') }}">
+                                    <img class="3" src="{{ asset('img/theme/5555.png') }}">
+                                    <img class="4" src="{{ asset('img/theme/6666.png') }}">
+                                    <img class="5" src="{{ asset('img/theme/7777.png') }}">
+                                    <img class="6" src="{{ asset('img/theme/8888.png') }}">
+                                    <img class="7" src="{{ asset('img/theme/9999.png') }}">
+                                    <img class="8" src="{{ asset('img/theme/0000.png') }}">
+                                </div>
+                            </div><br>
+                            <span class="ms-Panel-headerText hideset" style="font-size: 17px; cursor: pointer; display: none; margin: unset;">Hide all</span>
+                            <span class="ms-Panel-headerText view" style="font-size: 17px; cursor: pointer; margin: unset;">view all</span>
                           </div>
                         </div>
                     </div>
@@ -147,12 +192,37 @@
                 </li>
                 <li>
                     <div class="ms-PanelExample">
-                      <button class="ms-Button" style="background-color: #5c2d91; border: 1px solid #5c2d91">
+                      <button class="ms-Button" style="background-color: unset;border: unset;">
                         <div class="ms-Persona-imageArea" style="max-width: 32px;height: 35px;position: unset;margin-top: 3px;margin-left: 3px;">
                           <div class="ms-Persona-initials ms-Persona-initials--purple" style="line-height: 35px;background-color: #0078d4;font-size: 16px;font-weight: 300 !important;">ML</div>
                         </div>
                       </button>
                       <div class="ms-Panel">
+                        <button class="ms-Panel-closeButton ms-PanelAction-close">
+                          <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel"></i>
+                        </button>
+                        <div class="ms-Panel-contentInner">
+                          <p class="ms-Panel-headerText" style="margin-top: 0px;font-weight: bolder;">My account</p>
+                          <div class="ms-Panel-content" style="margin-top: 20px;">
+                            <div class="ms-Persona ms-Persona--xl">
+                              <div class="ms-Persona-imageArea">
+                                <div class="ms-Persona-initials ms-Persona-initials--blue">ML</div>
+                              </div>
+                              <div class="ms-Persona-presence">
+                                <i class="ms-Persona-presenceIcon ms-Icon ms-Icon--SkypeCheck"></i>
+                              </div>
+                              <div class="ms-Persona-details">
+                                <div class="ms-Persona-primaryText" style="font-size: 17px; font-weight: bolder;">Mlton Lafferty</div>
+                                <div class="ms-Persona-optionalText" style="font-weight: bolder;">milton@yac.com</div>
+                                <div class="ms-Persona-secondaryText"><a href="{!! route('frontend.index') !!}" style="color: #0065b2; font-weight: bolder;"> My Home</a></div>
+                                <div class="ms-Persona-tertiaryText"><a href="{!! route('admin.profile.edit') !!}" style="color: #0065b2; font-weight: bolder;">My account</a></div>
+                                <div class="ms-Persona-optionalText"><a href="{!! route('frontend.auth.logout') !!}" style="color: #0065b2; font-weight: bolder;">Sign out</a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <div class="ms-Panel">
                         <button class="ms-Panel-closeButton ms-PanelAction-close">
                           <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel"></i>
                         </button>
@@ -180,7 +250,7 @@
                                 {{ link_to_route('dashboard', 'Link') }}
                             </div> --}}
                         </div>
-
+ 
                         <div class="user-footer">
                             <div class="pull-left" style="margin-top: 20px;">
                                 <a href="{!! route('frontend.index') !!}" class="btn btn-default btn-flat">
@@ -198,7 +268,7 @@
                           </div>
 
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                 </li>
                 <!-- <li class="dropdown user user-menu">
