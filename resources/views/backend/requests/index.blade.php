@@ -6,21 +6,21 @@
 @endsection
 @section('content')
 <div class="top-area">
-	<div class="" style="padding: 13px; padding-left: 30px;">
+	<div class="tops" style="padding: 13px; padding-left: 30px;">
 		<div class="row">
-			<div class="col-md-1" style="cursor: pointer;">
+			<div class="col-md-1 col-sm-2" style="cursor: pointer;">
 				<div class="event">
 					<i class="ms-Icon ms-font-sm ms-Icon--CalculatorAddition" style="color: #5597e4; font-size: 13px;"></i>
 					<span style="cursor: pointer;">New</span>
 				</div>
 			</div>
-			<div class="col-md-1" style="cursor: pointer;">
+			<div class="col-md-1 col-sm-2" style="cursor: pointer;">
 				<div class="event">
 					<i class="ms-Icon ms-font-sm ms-Icon--Delete" style="color: #5597e4"></i>
 					<span style="cursor: pointer;">Delete</span>
 				</div>				
 			</div>
-			<div class="col-md-1 top-content ms-setting">
+			<div class="col-md-1 col-sm-2 top-content ms-setting">
 				<div  class="ms-Button" style="cursor: pointer;">					
 					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--Edit" style=" color: #5597e4"></i>
 					<span>Content</span></div>

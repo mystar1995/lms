@@ -97,9 +97,50 @@
  .ms-Panel-contentInner{
    padding: 0 19px 20px !important;
  }
-
+ .ms-Dialog.ms-Dialog--lgHeader .ms-Dialog-title{
+  padding: 2px 24px !important;
+ }
+ .ms-Dialog{
+  width:70%;
+  max-width:70%;
+ }
 </style>
 <script src="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/js/fabric.min.js"></script>
+
+<script type="text/javascript">
+  (function() {
+    var example = document.querySelector(".docs-DialogExample-lgHeader");
+    var button = example.querySelector(".docs-DialogExample-button");
+    var dialog = example.querySelector(".ms-Dialog");
+    var label = example.querySelector(".docs-DialogExample-label")
+    //var actionButtonElements = example.querySelectorAll(".ms-Dialog-action");
+    var actionButtonComponents = [];
+    // Wire up the dialog
+    var dialogComponent = new fabric['Dialog'](dialog);
+    // Wire up the buttons
+    // for (var i = 0; i < actionButtonElements.length; i++) {
+    //   actionButtonComponents[i] = new fabric['Button'](actionButtonElements[i], actionHandler);
+    // }
+    // When clicking the button, open the dialog
+    button.onclick = function() {
+      openDialog(dialog);
+    };
+    function actionHandler(event) {
+      label.innerText = this.innerText.trim() + " clicked";
+    }
+    function openDialog(dialog) {
+      // Open the dialog
+      dialogComponent.open();
+      $('.main-header').css('opacity', '0.3');
+      $('.main-sidebar').css('opacity', '0.3');
+    }
+    
+    $('.ms-Dialog-action').click(function(){
+      $('.main-header').css('opacity', '1');
+      $('.main-sidebar').css('opacity', '1');
+    })
+  }());
+</script>
 <script type="text/javascript">
   /////////////////////Collaps menu////////////
   $('.treeview1').click(function(){
@@ -339,5 +380,5 @@
       $('.view').css('display','block');
       $('.set_area').css('height','115px');
     })
-
+    $('.docs-DialogExample-button').click();
 </script>

@@ -1135,7 +1135,14 @@ li button:focus{
 #history, #overview{
 	background-color:#fff !important;
 }
-
+@media(max-width: 768px){
+	.skin-blue-light .main-header .navbar .sidebar-toggle{
+		color: white !important;
+	}
+	.tops{
+		display: none;
+	}
+}
 
 
 
