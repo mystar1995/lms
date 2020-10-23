@@ -320,4 +320,12 @@
             </ul>
         </div><!-- /.navbar-custom-menu -->
     </nav>
+<div class="my_noti" style="width: 100%; height: 85px; background-color: #fceaec; padding-left: 40px;padding-top: 15px; display: flex; display: none;">
+  <i class="ms-Icon ms-font-lg ms-Icon--ChromeClose" style="font-size: 10px; font-weight: bolder; cursor: pointer;"></i>
+  <div style="margin-left: 20px;">
+    The server cannot be reached and therefore<br>
+    lore ipsum data loss. Lorem ipsum per secular seculorum.
+  </div>
+    
+</div>
 </header>

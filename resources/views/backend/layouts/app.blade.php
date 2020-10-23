@@ -104,6 +104,9 @@
   width:70%;
   max-width:70%;
  }
+ .ms-Icon--ChromeClose:before{
+  font-size: 12px !important;
+ }
 </style>
 <script src="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/js/fabric.min.js"></script>
 
@@ -113,14 +116,14 @@
     var button = example.querySelector(".docs-DialogExample-button");
     var dialog = example.querySelector(".ms-Dialog");
     var label = example.querySelector(".docs-DialogExample-label")
-    //var actionButtonElements = example.querySelectorAll(".ms-Dialog-action");
+    var actionButtonElements = example.querySelectorAll(".ms-Dialog-action");
     var actionButtonComponents = [];
     // Wire up the dialog
     var dialogComponent = new fabric['Dialog'](dialog);
     // Wire up the buttons
-    // for (var i = 0; i < actionButtonElements.length; i++) {
-    //   actionButtonComponents[i] = new fabric['Button'](actionButtonElements[i], actionHandler);
-    // }
+    for (var i = 0; i < actionButtonElements.length; i++) {
+      actionButtonComponents[i] = new fabric['Button'](actionButtonElements[i], actionHandler);
+    }
     // When clicking the button, open the dialog
     button.onclick = function() {
       openDialog(dialog);
@@ -142,6 +145,18 @@
   }());
 </script>
 <script type="text/javascript">
+  ///////////notification/////////////////////
+
+  $('.notis').click(function(){
+    $('.my_noti').css('display','block');
+    $('.main-sidebar').css('margin-top','73px');
+    $('.sidebar-toggle').css('margin-top','135px');
+  })
+  $('.ms-Icon--ChromeClose').click(function(){    
+    $('.my_noti').css('display','none');
+    $('.main-sidebar').css('margin-top','0px');
+    $('.sidebar-toggle').css('margin-top','53px');
+  })
   /////////////////////Collaps menu////////////
   $('.treeview1').click(function(){
     if($(this).hasClass('tree_has'))
@@ -208,7 +223,6 @@
           new fabric['Panel'](PanelExamplePanel);
           $(this).addClass('closebtn');  
         }
-        
       });
     }());
   }
