@@ -2,7 +2,7 @@
 <header class="main-header" style="">
 
     <a href="#" class="logo" style="position: fixed;z-index: 10000;color: white;padding-right:87px !important">
-       License2Code
+       123Degrees
     </a>
 
     <nav class="navbar navbar-static-top" role="navigation">

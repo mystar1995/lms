@@ -8,7 +8,7 @@
         <div class="col-md-6 col-md-offset-3" style="width: 45%;margin-left:27%;">
 
             <div class="panel panel-default" style="margin-top: 25%;">
-                <h3 class="panel-heading ms-Label" style="text-align: center;padding-top: 90px;font-size: 2.75rem; font-weight: bold;border: unset;">License2Code</h3>
+                <h3 class="panel-heading ms-Label" style="text-align: center;padding-top: 90px;font-size: 2.75rem; font-weight: bold;border: unset;">123Degrees</h3>
                 <span class="ms-Label" style="font-size: 16px;color: #34395e;text-align: center;font-weight: bold; margin-bottom: -5px;">Select your sign-in perfer-</span>
                 <div class="panel-body">
 

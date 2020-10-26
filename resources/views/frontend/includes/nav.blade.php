@@ -9,9 +9,9 @@
             </button>
 
            {{--   @if(settings()->logo)
-            <a href="{{ route('frontend.index') }}" class="logo">License2Code</a>
+            <a href="{{ route('frontend.index') }}" class="logo">123Degrees</a>
             @else --}}
-             <a href="{{ route('frontend.index') }}" style="text-decoration:none;"><h3 style="margin-top: 11px;">License2Code</h3></a>
+             <a href="{{ route('frontend.index') }}" style="text-decoration:none;"><h3 style="margin-top: 11px;">123Degrees</h3></a>
            {{--  @endif --}}
         </div><!--navbar-header-->
 

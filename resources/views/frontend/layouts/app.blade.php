@@ -6,14 +6,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="License2Code">
+        <meta name="viewport" content="123Degrees">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>License2Code</title>
+        <title>123Degrees</title>
 
         <!-- Meta -->
-        <meta name="description" content="License2Code">
-        <meta name="author" content="License2Code">
-        <meta name="keywords" content="License2Code">
+        <meta name="description" content="123Degrees">
+        <meta name="author" content="123Degrees">
+        <meta name="keywords" content="123Degrees">
         <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/css/fabric.min.css" />
         <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/css/fabric.components.min.css" />
         @yield('meta')
