@@ -12284,13 +12284,14 @@ var Backend = {}; // common variable used in all the files of the backend
 
 })();
 
-// $('.test_create').click(function(){
-//     $.ajax({
-//         url:'/admin/ajax_create_test',
-//         data: {title:$('.test_title').val(), desc:$('.test_content').val()},
-//         type: 'GET',
-//         success:function(res){
-//             window.location.href('/admin/ktest_index');
-//         }
-//     })
-// })
+$('.test_create').click(function(){
+    $.ajax({
+        url:'/admin/ajax_create_test',
+        data: {title:$('.test_title').val(), desc:$('.test_content').val()},
+        type: 'GET',
+        success:function(res){
+            alert('sdfd');
+           // window.location.href('/admin/ktest_index');
+        }
+    })
+})
