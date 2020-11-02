@@ -39,11 +39,12 @@ class TestsController extends Controller
         $ktest->desc = $_GET['desc'];
         var_dump($_GET['title']);
         $ktest->save();
-        return redirect('insert')->with('status',"Insert successfully");
+       // return redirect('insert')->with('status',"Insert successfully");
     }
     public function view_testcate()
     {
-            
+        $category = DB::table('ktest')->get();
+        return view('backend.ktest.index', $category);
     }
 
     /**

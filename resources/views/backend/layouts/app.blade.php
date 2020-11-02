@@ -246,6 +246,10 @@
       });
     }());
   }
+  $('.arrow_close .ms-Icon--Cancel').click(function(){
+    $('.ms-Icon--ChevronDown').css('transform','rotate(0deg)');
+    $('.ms-env .ms-Label .ms-Button').removeClass('closebtn');
+  })
   var PanelExamples = document.getElementsByClassName("ms-env");
   for (var i = 0; i < PanelExamples.length; i++) {
     (function() {

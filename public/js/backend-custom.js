@@ -12281,7 +12281,6 @@ var Backend = {}; // common variable used in all the files of the backend
             }
         }
     };
-
 })();
 
 $('.test_create').click(function(){
@@ -12290,8 +12289,6 @@ $('.test_create').click(function(){
         data: {title:$('.test_title').val(), desc:$('.test_content').val()},
         type: 'GET',
         success:function(res){
-            alert('sdfd');
-           // window.location.href('/admin/ktest_index');
         }
     })
 })

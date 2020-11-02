@@ -66,7 +66,7 @@
                         <span class="ms-Label" style="color: #ffffffe0; width: 180px; font-size: 17px;font-weight: 200;padding-top:13px;">Pty Limited... <button class="ms-Button" style="background-color: unset;border: unset;"><i class="ms-Icon ms-Icon--ChevronDown" style="position: absolute;margin: 4px;cursor: pointer;margin: -11px -9px 4px;"></i></i>
                         </button> </span>
                         <div class="ms-Panel" style="margin-top: 5px;">
-                          <button class="ms-Panel-closeButton ms-PanelAction-close">
+                          <button class="ms-Panel-closeButton ms-PanelAction-close arrow_close">
                             <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel" style="padding-top: 2px;"></i>
                           </button>
                           <div class="ms-Panel-contentInner" style="margin-top: -6px;padding:0 20px 20px">
