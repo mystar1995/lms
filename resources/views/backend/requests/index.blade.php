@@ -8,7 +8,7 @@
 <div class="top-area">
 	<div class="tops" style="padding: 13px; padding-left: 30px;">
 		<div class="row">
-			<div class="col-md-2 col-sm-6 ms-setting" style="cursor: pointer;">
+			<div class="col-md-1 col-sm-2 ms-setting" style="cursor: pointer;">
 				<div  class="ms-Button" style="cursor: pointer;">					
 					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--CalculatorAddition" style="color: #5597e4; font-size: 13px;"></i>
 					<span style="cursor: pointer;">New</span></div>
@@ -25,7 +25,7 @@
                 </div>		
 			</div>
 
-			<div class="col-md-2 col-sm-6 ms-setting" style="cursor: pointer;">
+			<div class="col-md-1 col-sm-2 ms-setting" style="cursor: pointer;">
 				<div  class="ms-Button" style="cursor: pointer;">					
 					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--Edit" style="color: #5597e4"></i>
 					<span style="cursor: pointer;">Edit</span></div>
@@ -41,7 +41,7 @@
                   </div>
                 </div>			
 			</div>
-			<div class="col-md-2 col-sm-6 top-content ms-setting">
+			<div class="col-md-1 col-sm-2 top-content ms-setting">
 				<div  class="ms-Button" style="cursor: pointer;">					
 					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--RedEye" style=" color: #5597e4"></i>
 					<span style="padding-top: 1.3px;">View</span></div>
