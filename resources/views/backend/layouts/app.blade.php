@@ -222,6 +222,10 @@
         {
           new fabric['Panel'](PanelExamplePanel);
           $(this).addClass('closebtn');  
+          $('.ms-Icon--ChevronDown').css('transform','rotate(0deg)');
+          $('.ms-env button').removeClass('closebtn');
+          $('.ms-setting button').removeClass('closebtn');
+          $('.ms-help button').removeClass('closebtn');
         }
       });
     }());
@@ -241,14 +245,20 @@
         {
           new fabric['Panel'](PanelExamplePanel);
           $(this).addClass('closebtn');  
+          $('.ms-Icon--ChevronDown').css('transform','rotate(0deg)');
+          $('.ms-setting .ms-PanelAction-close').click();
+          $('.ms-setting button').removeClass('closebtn');
+          $('.ms-env button').removeClass('closebtn');
+          $('.ms-PanelExample button').removeClass('closebtn');
         }
         
       });
     }());
   }
-  $('.arrow_close .ms-Icon--Cancel').click(function(){
+  $('.ms-Icon--Cancel').click(function(){
     $('.ms-Icon--ChevronDown').css('transform','rotate(0deg)');
-    $('.ms-env .ms-Label .ms-Button').removeClass('closebtn');
+    $('.ms-Button').removeClass('closebtn');
+    $('.ms-PanelAction-close').click();
   })
   var PanelExamples = document.getElementsByClassName("ms-env");
   for (var i = 0; i < PanelExamples.length; i++) {
@@ -267,6 +277,9 @@
           $('.ms-Icon--ChevronDown').attr('style', 'transform:rotate(-180deg)');
           new fabric['Panel'](PanelExamplePanel);
           $(this).addClass('closebtn');  
+          $('.ms-PanelExample button').removeClass('closebtn');
+          $('.ms-setting button').removeClass('closebtn');
+          $('.ms-help button').removeClass('closebtn');
         }
         
       });
@@ -287,6 +300,11 @@
         {
           new fabric['Panel'](PanelExamplePanel);
           $(this).addClass('closebtn');  
+          $('.ms-Icon--ChevronDown').css('transform','rotate(0deg)');
+          $('.ms-help .ms-PanelAction-close').click();
+          $('.ms-help button').removeClass('closebtn');
+          $('.ms-env button').removeClass('closebtn');
+          $('.ms-PanelExample button').removeClass('closebtn');
         }
         
       });

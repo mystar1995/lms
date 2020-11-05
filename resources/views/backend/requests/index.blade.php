@@ -14,6 +14,7 @@
 					<span style="cursor: pointer;">New</span>
 				</div>
 			</div>
+			
 			<div class="col-md-1 col-sm-2" style="cursor: pointer;">
 				<div class="event">
 					<i class="ms-Icon ms-font-sm ms-Icon--Delete" style="color: #5597e4"></i>

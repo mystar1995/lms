@@ -33,8 +33,9 @@
                         </div>
                         <div class="col-md-12" style="display: flex;margin-bottom: 10px;">
                             {{ Form::submit(trans('Sign in'), ['class' => 'ms-Button ms-Button--primary', 'style' => 'color:white; font-weight:bold; margin-top:5px;']) }}
-
-                          <!--   {{ link_to_route('frontend.auth.password.reset', trans('labels.frontend.passwords.forgot_password')) }} -->
+                        </div>
+                        <div class="col-md-12" style="display: flex;margin-bottom: 10px;">
+                          <div style="margin:auto;">{{ link_to_route('frontend.auth.password.reset', trans('labels.frontend.passwords.forgot_password')) }} </div>
                         </div><!--col-md-6-->
                         
                         <div class="mt-5 text-muted text-center" style="color: #6c757d !important;margin-top: 10px !important"><span>Don't have an account?</span>

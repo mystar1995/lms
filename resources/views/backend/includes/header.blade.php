@@ -59,6 +59,7 @@
                         </li>
                     </ul>
                 </li> --><!-- /.tasks-menu -->
+                
                 <li>
                     <div class="ms-env">
                         <i class="ms-Icon ms-Icon--AddOnlineMeeting" style="margin-top: 12px;margin-left: -31px; float: left; color: white;"></i>
