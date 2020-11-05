@@ -107,6 +107,12 @@
  .ms-Icon--ChromeClose:before{
   font-size: 12px !important;
  }
+ .sidebar-collapse .sidebar-menu:hover{
+  overflow: hidden;
+ }
+ .sidebar-collapse .treeview-menu3{
+  display: none !important;
+ }
 </style>
 <script src="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/js/fabric.min.js"></script>
 

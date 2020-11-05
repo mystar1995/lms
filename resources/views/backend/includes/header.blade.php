@@ -6,7 +6,7 @@
     </a>
 
     <nav class="navbar navbar-static-top" role="navigation">
-        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button" style="position: fixed;left: 0;margin-left: 0px; top: 0; margin-top: 53px;padding-top:14px;padding-left:19px;color: #333;">
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button" style="position: fixed;left: 0;margin-left: 0px; top: 0; margin-top: 53px;padding-top:14px;padding-left:19px;padding-right:19px;color: #333;">
             <span class="sr-only">{{ trans('labels.general.toggle_navigation') }}</span>
         </a>
 
@@ -59,7 +59,7 @@
                         </li>
                     </ul>
                 </li> --><!-- /.tasks-menu -->
-                
+
                 <li>
                     <div class="ms-env">
                         <i class="ms-Icon ms-Icon--AddOnlineMeeting" style="margin-top: 12px;margin-left: -31px; float: left; color: white;"></i>

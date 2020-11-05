@@ -8,30 +8,50 @@
 <div class="top-area">
 	<div class="tops" style="padding: 13px; padding-left: 30px;">
 		<div class="row">
-			<div class="col-md-1 col-sm-2" style="cursor: pointer;">
-				<div class="event">
-					<i class="ms-Icon ms-font-sm ms-Icon--CalculatorAddition" style="color: #5597e4; font-size: 13px;"></i>
-					<span style="cursor: pointer;">New</span>
-				</div>
-			</div>
-			
-			<div class="col-md-1 col-sm-2" style="cursor: pointer;">
-				<div class="event">
-					<i class="ms-Icon ms-font-sm ms-Icon--Delete" style="color: #5597e4"></i>
-					<span style="cursor: pointer;">Delete</span>
-				</div>				
-			</div>
-			<div class="col-md-1 col-sm-2 top-content ms-setting">
+			<div class="col-md-2 col-sm-6 ms-setting" style="cursor: pointer;">
 				<div  class="ms-Button" style="cursor: pointer;">					
-					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--Edit" style=" color: #5597e4"></i>
-					<span>Content</span></div>
+					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--CalculatorAddition" style="color: #5597e4; font-size: 13px;"></i>
+					<span style="cursor: pointer;">New</span></div>
 				</div>
 				<div class="ms-Panel">
                   <button class="ms-Panel-closeButton ms-PanelAction-close">
                     <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel" style="padding-top: 2px;"></i>
                   </button>
                   <div class="ms-Panel-contentInner">
-                    <p class="ms-Panel-headerText">Request</p>
+                    <p class="ms-Panel-headerText">New</p>
+                    <div class="ms-Panel-content">
+                    </div>
+                  </div>
+                </div>		
+			</div>
+
+			<div class="col-md-2 col-sm-6 ms-setting" style="cursor: pointer;">
+				<div  class="ms-Button" style="cursor: pointer;">					
+					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--Edit" style="color: #5597e4"></i>
+					<span style="cursor: pointer;">Edit</span></div>
+				</div>
+				<div class="ms-Panel">
+                  <button class="ms-Panel-closeButton ms-PanelAction-close">
+                    <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel" style="padding-top: 2px;"></i>
+                  </button>
+                  <div class="ms-Panel-contentInner">
+                    <p class="ms-Panel-headerText">Edit</p>
+                    <div class="ms-Panel-content">
+                    </div>
+                  </div>
+                </div>			
+			</div>
+			<div class="col-md-2 col-sm-6 top-content ms-setting">
+				<div  class="ms-Button" style="cursor: pointer;">					
+					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--RedEye" style=" color: #5597e4"></i>
+					<span style="padding-top: 1.3px;">View</span></div>
+				</div>
+				<div class="ms-Panel">
+                  <button class="ms-Panel-closeButton ms-PanelAction-close">
+                    <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel" style="padding-top: 2px;"></i>
+                  </button>
+                  <div class="ms-Panel-contentInner">
+                    <p class="ms-Panel-headerText">View</p>
                     <div class="ms-Panel-content">
                     </div>
                   </div>
