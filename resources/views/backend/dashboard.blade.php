@@ -8,27 +8,18 @@
 
 @section('content')
     <div class="docs-DialogExample-lgHeader">
-      <div class="ms-Dialog ms-Dialog--lgHeader">
-        <div class="ms-Dialog-title"></div>
-        <div class="ms-Dialog-content">
-             <div class="box box-info">
-                <div class="box-header with-border">
-                    <h3 class="box-title">{{ trans('history.backend.recent_history') }}</h3>
-                    <div class="box-tools pull-right">
-                        <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                    </div><!-- /.box tools -->
-                </div><!-- /.box-header -->
-                <div class="box-body">
-                    {!! history()->render() !!}
-                </div><!-- /.box-body -->
-            </div><!--box box-info-->
-        </div>
-        <div class="ms-Dialog-actions">
-          <button class="ms-Button ms-Dialog-action ms-Button--primary">
-            <span class="ms-Button-label">Cancel</span> 
+      <div class="ms-Dialog ms-Dialog--lgHeader" style="width: 50%;padding: 0">
+        <div class="ms-Dialog-actions" style="margin-top: 13px;margin-right:8px">
+          <button class="ms-Dialog-action" style="border:none; background-color: unset;">
+            <span class="ms-Button-label">Skip<i class="fa fa-angle-right pull-right" style="margin-right: 15px; font-size: 20px;"></i></span> 
           </button>
-          
-      </div>
+        </div>        
+        <div>
+          <h1 style="text-align: center;">Welcome</h1>
+          <p style="text-align: center;font-size:21px;margin: 0;">Discover what License2Code</p>
+          <p style="text-align: center;font-size:21px;">can do for you!</p>
+        </div>
+        <img src="{{ asset('img/welcome.png') }}" style="width: 100%;">
       <button class="ms-Button docs-DialogExample-button" style="display: none;">Open Dialog</button>
     </div>
 
