@@ -5,21 +5,21 @@
 @section('page-header')
 <div class="top-area">
 	<div class="" style="padding: 13px; padding-left: 30px;">
-		<div class="row">
-			<div class="col-md-1" style="cursor: pointer;">
+		<div class="row" style="display: flex;">
+			<div class="" style="cursor: pointer; width: 60px;">
 				<div class="event">
 					<i class="ms-Icon ms-font-sm ms-Icon--CalculatorAddition" style="color: #5597e4; font-size: 13px;"></i>
 					<span style="cursor: pointer;">New</span>
 				</div>
 			</div>
-			<div class="col-md-1" style="cursor: pointer;">
+			<div class="" style="cursor: pointer; width: 70px;margin-left:10px;">
 				<div class="event">
 					<i class="ms-Icon ms-font-sm ms-Icon--Delete" style="color: #5597e4"></i>
 					<span style="cursor: pointer;">Delete</span>
 				</div>				
 			</div>
-			<div class="col-md-1 top-content ms-setting">
-				<div  class="ms-Button" style="cursor: pointer;">					
+			<div class="top-content ms-setting">
+				<div  class="ms-Button" style="cursor: pointer; width: 80px;margin-left:10px;">					
 					<div class="event"><i class="ms-Icon ms-font-sm ms-Icon--Edit" style=" color: #5597e4"></i>
 					<span>Content</span></div>
 				</div>
